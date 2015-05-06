@@ -39,8 +39,7 @@ image:
 
 ---
 
-
-<a href="https://play.google.com/store/apps/details?id=com.studiokurage.fleur" class="half">
+<a href="https://play.google.com/store/apps/details?id=com.studiokurage.fleur">
 	<img src="/images/googleplay.jpg" alt="Get it on Google Play" />
 </a>
 
