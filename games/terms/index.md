@@ -2,6 +2,8 @@
 layout: page
 title: Conditions d'utilisation
 excerpt: "Conditions d'utilisation"
+image:
+  feature: terms-image.jpg
 ---
 
 Le texte suivant a été mis à jour pour la dernière fois le 6 avril 2015.

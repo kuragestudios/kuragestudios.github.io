@@ -6,4 +6,4 @@ excerpt: "Invaders"
 
 We are working on a prototype for now.
 
-Please stay tune!
+Please stay tuned!
