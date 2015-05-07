@@ -51,4 +51,11 @@ Pretty Flower is free to play, but you can purchase in-app items with real money
 
 ---
 
+You like Pretty Flower? Like us on <a href="http://facebook.com/KurageStudios"> Facebook</a> or follow us on  <a href="http://twitter.com/KurageStudios">Twitter</a> for the latest news.
+
+Rose, dahlia, blueberry, iris, tulip, chrysanthemum, poppy, sunflower, dandelion, edelweiss, daisy, ...
+Do you know other pretty flowers? Feel free to share with us your most beautiful flowers and your most beautiful bouquets!
+
+---
+
  [Credits](/games/pretty-flower/credits)
