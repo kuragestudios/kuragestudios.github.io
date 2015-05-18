@@ -64,7 +64,7 @@ function Wave()
     }
 
     var gradientFill = context.createLinearGradient(WIDTH * 0.5, HEIGHT * 0.2,WIDTH * 0.5, HEIGHT);
-    gradientFill.addColorStop(0,'#00ccff');
+    gradientFill.addColorStop(0,'#00ddee');
     gradientFill.addColorStop(1,'rgba(0,200,250,0)');
 
     context.clearRect(0, 0, WIDTH, HEIGHT);
