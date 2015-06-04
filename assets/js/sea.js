@@ -5,7 +5,7 @@ var HEIGHT = window.innerHeight;
 var SPRING_CONSTANT = 0.005;            // Spring constant for forces applied by adjacent points
 var SPRING_CONSTANT_BASELINE = 0.005;   // Sprint constant for force applied to baseline
 var Y_OFFSET = Math.round(HEIGHT / 2);                     // Vertical draw offset of simulation
-var DAMPING = 0.99;                     // Damping to apply to speed changes
+var DAMPING = 0.975;                     // Damping to apply to speed changes
 var ITERATIONS = 4;                     // Number of iterations of point-influences-point to do on wave per step
 
 var NUM_BACKGROUND_WAVES = 2;
