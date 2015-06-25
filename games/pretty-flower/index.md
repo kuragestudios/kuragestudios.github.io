@@ -39,9 +39,14 @@ image:
 
 ---
 
-<a href="https://play.google.com/store/apps/details?id=com.studiokurage.fleur">
+<figure class="half">
+<a href="https://play.google.com/store/apps/details?id=com.studiokurage.fleur" target="_blank">
 	<img src="/images/googleplay.jpg" alt="Get it on Google Play" />
 </a>
+<a href="https://itunes.apple.com/us/app/pretty-flower/id959966566?mt=8" target="_blank">
+	<img src="/images/appstore.jpg" alt="Available on the App Store" />
+</a>
+</figure>
 
 By downloading this game you are agreeing to our [terms of service](/games/terms).
 
@@ -51,7 +56,7 @@ Pretty Flower is free to play, but you can purchase in-app items with real money
 
 ---
 
-You like Pretty Flower? Like us on <a href="http://facebook.com/KurageStudios"> Facebook</a> or follow us on  <a href="http://twitter.com/KurageStudios">Twitter</a> for the latest news.
+You like Pretty Flower? Like us on <a href="http://facebook.com/KurageStudios" target="_blank"> Facebook</a> or follow us on  <a href="http://twitter.com/KurageStudios" target="_blank">Twitter</a> for the latest news.
 
 Rose, dahlia, blueberry, iris, tulip, chrysanthemum, poppy, sunflower, dandelion, edelweiss, daisy, eyelet, thistle, ...
 Do you know other pretty flowers? Feel free to share with us your most beautiful flowers and your most beautiful bouquets!

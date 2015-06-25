@@ -12,4 +12,8 @@ image:
 	<figcaption>© 2015 Kurage Studios.</figcaption>
 </figure>
 
+[Android Games](https://play.google.com/store/search?q=pub:Aurelien+Drouet)
+
+[iOS Games](https://itunes.apple.com/us/artist/aurelien-drouet/id959966565)
+
 The terms of use of our Games are available by following this [link](/games/terms).
