@@ -1,20 +1,22 @@
 ---
 layout: post
-title: "Pretty Flower"
+title: "Pretty Flower on iOS"
 modified:
 categories: blog
 excerpt:
 tags: []
 image:
   feature:
-date: 2015-05-05T12:00:00-00:00
+date: 2015-07-01T12:00:00-00:00
 ---
 
-We are pleased to announce the launch of our new game <a href="/games/pretty-flower">Pretty Flower</a> on Android.
+Hurray! <a href="/games/pretty-flower">Pretty Flower</a> is finally available on the App Store.
 
-We are still working on the iOS version and we planned to release it in June.
+You can download Pretty Flower on the App Store by following the link above.
 
-Please stay tuned!
+<a href="https://itunes.apple.com/us/app/pretty-flower/id959966566?mt=8" target="_blank">
+	<img src="/images/appstore.jpg" alt="Available on the App Store" />
+</a>
 
 <figure class="half">
 	<a href="/images/pretty-flower/en-flower.jpg">
@@ -31,9 +33,3 @@ Please stay tuned!
 	</a>
 	<figcaption>© 2015 Kurage Studios.</figcaption>
 </figure>
-
-You can download Pretty Flower on Google Play Store by following the link above.
-
-<a href="https://play.google.com/store/apps/details?id=com.studiokurage.fleur">
-	<img src="/images/googleplay.jpg" alt="Get it on Google Play" />
-</a>
