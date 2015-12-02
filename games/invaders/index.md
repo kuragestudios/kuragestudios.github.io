@@ -31,10 +31,12 @@ Everyday by e-mail or by Facebook.
 
 <h2>Monster List for December</h2>
 <h3>Aurelien</h3>
-<img src="/images/invaders/monster_000.gif" class="pixelated" width="120" />
-<img src="/images/invaders/monster_001.gif" class="pixelated" width="120" />
-<img src="/images/invaders/monster_002.gif" class="pixelated" width="120" />
-<img src="/images/invaders/monster_003.gif" class="pixelated" width="120" />
+<img src="/images/invaders/aurelien_000.gif" class="pixelated" width="120" />
+<img src="/images/invaders/aurelien_001.gif" class="pixelated" width="120" />
+<img src="/images/invaders/aurelien_002.gif" class="pixelated" width="120" />
+<img src="/images/invaders/aurelien_003.gif" class="pixelated" width="120" />
 
-<h3>Keropipi</h3>
-
+<h3>Pipipikikori</h3>
+<img src="/images/invaders/pipipikikori_000.gif" class="pixelated" width="120" />
+<img src="/images/invaders/pipipikikori_001.gif" class="pixelated" width="120" />
+<img src="/images/invaders/pipipikikori_002.gif" class="pixelated" width="120" />
