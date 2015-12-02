@@ -20,7 +20,6 @@ image:
 	<a href="/images/pretty-flower/en-editor.jpg">
 		<img src="/images/pretty-flower/en-editor.jpg" alt="image" />
 	</a>
-	<figcaption>© 2015 Kurage Studios.</figcaption>
 </figure>
 
 **Pretty Flower is a simple and charming puzzle game offering:**
@@ -41,10 +40,10 @@ image:
 
 <figure class="half">
 <a href="https://play.google.com/store/apps/details?id=com.studiokurage.fleur" target="_blank">
-	<img src="/images/googleplay.jpg" alt="Get it on Google Play" />
+	<img src="/images/googleplay_get_it.jpg" alt="Get it on Google Play" />
 </a>
 <a href="https://itunes.apple.com/us/app/pretty-flower/id959966566?mt=8" target="_blank">
-	<img src="/images/appstore.jpg" alt="Available on the App Store" />
+	<img src="/images/appstore_get_it.jpg" alt="Available on the App Store" />
 </a>
 </figure>
 
@@ -63,4 +62,4 @@ Do you know other pretty flowers? Feel free to share with us your most beautiful
 
 ---
 
- [Credits](/games/pretty-flower/credits)
+Don't forget to check the [Credits](/games/pretty-flower/credits).

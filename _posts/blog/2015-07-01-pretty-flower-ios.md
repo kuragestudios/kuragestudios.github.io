@@ -4,19 +4,14 @@ title: "Pretty Flower on iOS"
 modified:
 categories: blog
 excerpt:
-tags: []
-image:
-  feature:
+tags: ["game", "puzzle", "android"]
+video:
+  feature: "r1xohS2u69E"
+author: aurelien
 date: 2015-07-01T12:00:00-00:00
 ---
 
 Hurray! <a href="/games/pretty-flower">Pretty Flower</a> is finally available on the App Store.
-
-You can download Pretty Flower on the App Store by following the link above.
-
-<a href="https://itunes.apple.com/us/app/pretty-flower/id959966566?mt=8" target="_blank">
-	<img src="/images/appstore.jpg" alt="Available on the App Store" />
-</a>
 
 <figure class="half">
 	<a href="/images/pretty-flower/en-flower.jpg">
@@ -31,5 +26,10 @@ You can download Pretty Flower on the App Store by following the link above.
 	<a href="/images/pretty-flower/en-editor.jpg">
 		<img src="/images/pretty-flower/en-editor.jpg" alt="image" />
 	</a>
-	<figcaption>© 2015 Kurage Studios.</figcaption>
 </figure>
+
+You can download Pretty Flower on the App Store by following the link above.
+
+<a href="https://itunes.apple.com/us/app/pretty-flower/id959966566?mt=8" target="_blank">
+	<img src="/images/appstore_get_it.jpg" alt="Available on the App Store" />
+</a>

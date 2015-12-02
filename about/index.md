@@ -3,8 +3,8 @@ layout: page
 title: About
 excerpt: "Kurage Studios"
 modified: 2014-12-12T19:44:38.564948-04:00
-image:
-  feature: about-image.jpg
+video:
+  feature: "Qa0DH2IQ13I"
 ---
 
 Kurage Studios is not yet a company but we are working hard to found it soon.
@@ -30,4 +30,4 @@ We are based in Tokyo, Japan.
 
 Please contact us by clicking the button below.
 
-<a href="mailto:kurage.studios@gmail.com" class="btn">Contact Us</a> 
+<a href="mailto:kurage.studios@gmail.com" class="btn">Contact Us</a>

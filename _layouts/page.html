@@ -5,6 +5,7 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 {% include head.html %}
+<link href="http://tokyoindiefest.com/css/YTPlayer.css" media="all" rel="stylesheet" type="text/css">
 </head>
 
 <body id="page">
@@ -16,6 +17,14 @@
     {% if page.image.feature %}
     <div class="entry-feature-image parallax" style="{% if site.logo == null %}margin-top:0;{% endif %} background-image: url({{ site.url }}/images/{{ page.image.feature }});"></div>
     {% endif %}
+
+    {% if page.video.feature %}
+    <div class="entry-feature-video">
+      <iframe src="https://www.youtube.com/embed/{{ page.video.feature }}?autoplay=1&loop=1&playlist={{ page.video.feature }}&modestbranding=1&controls=0&disablekb=1&showinfo=0&rel=0&enablejsapi=1&version=3&playerapiid=kuragestudios&origin=http://kuragestudios.com&allowfullscreen=true&wmode=transparent&iv_load_policy=3&html5=1" title="Kurage Studios" allowfullscreen="1" class="feature-video" frameborder="0" height="360" width="640"></iframe>
+      <div class="pattern"></div>
+    </div>
+    {% endif %}
+
     <div class="entry-wrapper">
       <header class="entry-header">
         <h1 class="entry-title">
@@ -43,7 +52,7 @@
   </footer>
 </div><!-- /.footer-wrapper -->
 
-{% include scripts.html %}          
+{% include scripts.html %}
 
 </body>
 </html>

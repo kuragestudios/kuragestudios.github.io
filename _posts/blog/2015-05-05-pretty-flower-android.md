@@ -4,19 +4,14 @@ title: "Pretty Flower on Android"
 modified:
 categories: blog
 excerpt:
-tags: []
-image:
-  feature:
+tags: ["game", "puzzle", "android"]
+video:
+  feature: "r1xohS2u69E"
+author: aurelien
 date: 2015-05-05T12:00:00-00:00
 ---
 
 We are pleased to announce the launch of our new game <a href="/games/pretty-flower">Pretty Flower</a> on Android.
-
-You can download Pretty Flower on Google Play Store by following the link above.
-
-<a href="https://play.google.com/store/apps/details?id=com.studiokurage.fleur">
-	<img src="/images/googleplay.jpg" alt="Get it on Google Play" />
-</a>
 
 <figure class="half">
 	<a href="/images/pretty-flower/en-flower.jpg">
@@ -31,9 +26,12 @@ You can download Pretty Flower on Google Play Store by following the link above.
 	<a href="/images/pretty-flower/en-editor.jpg">
 		<img src="/images/pretty-flower/en-editor.jpg" alt="image" />
 	</a>
-	<figcaption>© 2015 Kurage Studios.</figcaption>
 </figure>
 
-We are still working on the iOS version and we planned to release it in June.
+You can download Pretty Flower on Google Play Store by following the link above.
 
-Please stay tuned!
+<a href="https://play.google.com/store/apps/details?id=com.studiokurage.fleur">
+	<img src="/images/googleplay_get_it.jpg" alt="Get it on Google Play" />
+</a>
+
+We are still working on the iOS version and we planned to release it in June. Please stay tuned!
