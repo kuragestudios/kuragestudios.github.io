@@ -3,7 +3,7 @@ layout: page
 title: Games
 excerpt: "We love games"
 video:
-  feature: "UOQ9cIp9RqY"
+  feature: "SwAlZB-HETM"
 ---
 
 <figure class="half">

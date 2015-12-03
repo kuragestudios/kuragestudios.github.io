@@ -4,7 +4,7 @@ title: About
 excerpt: "Kurage Studios"
 modified: 2014-12-12T19:44:38.564948-04:00
 video:
-  feature: "Qa0DH2IQ13I"
+  feature: "8EP6eS8cens"
 ---
 
 Kurage Studios is not yet a company but we are working hard to found it soon.
