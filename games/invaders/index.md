@@ -38,9 +38,11 @@ Everyday by e-mail or by Facebook.
 <img src="/images/invaders/aurelien_004.gif" class="pixelated" width="120" />
 <img src="/images/invaders/aurelien_005.gif" class="pixelated" width="120" />
 <img src="/images/invaders/aurelien_006.gif" class="pixelated" width="120" />
+<img src="/images/invaders/aurelien_007.gif" class="pixelated" width="120" />
 
 <h3>Pipipikikori</h3>
 <img src="/images/invaders/pipipikikori_000.gif" class="pixelated" width="120" />
 <img src="/images/invaders/pipipikikori_001.gif" class="pixelated" width="120" />
 <img src="/images/invaders/pipipikikori_002.gif" class="pixelated" width="120" />
 <img src="/images/invaders/pipipikikori_003.gif" class="pixelated" width="120" />
+<img src="/images/invaders/pipipikikori_004.gif" class="pixelated" width="120" />
