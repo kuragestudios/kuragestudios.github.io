@@ -31,3 +31,6 @@ Everyday by e-mail.
 
 <h3>Pipipikikori</h3>
 <img src="/images/invaders/pipipikikori.gif" class="pixelated" width="512" />
+
+<h2>Monster Egg List</h2>
+<img src="/images/invaders/eggs.gif" class="pixelated" width="544" />
