@@ -28,6 +28,7 @@ Everyday by e-mail.
 <h2>Monster List for December</h2>
 <h3>Aurelien</h3>
 <img src="/images/invaders/aurelien.gif" class="pixelated" width="512" />
+<img src="/images/invaders/aurelien2.gif" class="pixelated" width="512" />
 
 <h3>Pipipikikori</h3>
 <img src="/images/invaders/pipipikikori.gif" class="pixelated" width="512" />
