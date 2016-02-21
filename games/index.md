@@ -8,6 +8,7 @@ video:
 
 <figure class="half">
 <a href="/games/pretty-flower"><img src="/images/pretty-flower/title.jpg" alt="image"></a>
+<a href="/games/paulo"><img src="/images/paulo/title.png" alt="image"></a>
 </figure>
 
 <figure class="half">

@@ -3,18 +3,9 @@ layout: page
 title: Paulo
 excerpt: Paulo
 image:
-  title: paulo/title.jpg
-  feature: paulo/feature.jpg
+  title: paulo/title-simple.png
+  feature: paulo/feature.png
 ---
-
-<figure class="half">
-	<a href="/images/paulo/screen-title.jpg">
-		<img src="/images/paulo/ad-00" alt="image" />
-	</a>
-	<a href="/images/paulo/screen-game">
-		<img src="/images/paulo/ad-01" alt="image" />
-	</a>
-</figure>
 
 Revive the golden age of arcade games in the 80th with Paulo, the new game from Kurage Studios.
 
@@ -56,3 +47,24 @@ By downloading this game you are agreeing to our [terms of service](/games/terms
 ---
 
 You like Paulo? Like us on <a href="http://facebook.com/KurageStudios" target="_blank"> Facebook</a> or follow us on  <a href="http://twitter.com/KurageStudios" target="_blank">Twitter</a> for the latest news.
+
+<figure>
+	<a href="/images/paulo/screen-title.png">
+		<img src="/images/paulo/screen-title.png" alt="image" width="30%" />
+	</a>
+	<a href="/images/paulo/screen-tutorial-01.png">
+		<img src="/images/paulo/screen-tutorial-01.png" alt="image" width="30%" />
+	</a>
+	<a href="/images/paulo/screen-tutorial-02.png">
+		<img src="/images/paulo/screen-tutorial-02.png" alt="image" width="30%" />
+	</a>
+	<a href="/images/paulo/screen-game-01.png">
+		<img src="/images/paulo/screen-game-01.png" alt="image" width="30%" />
+	</a>
+	<a href="/images/paulo/screen-game-02.png">
+		<img src="/images/paulo/screen-game-02.png" alt="image" width="30%" />
+	</a>
+	<a href="/images/paulo/screen-victory.png">
+		<img src="/images/paulo/screen-victory.png" alt="image" width="30%" />
+	</a>
+</figure>
