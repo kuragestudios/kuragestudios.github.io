@@ -37,7 +37,7 @@ Please help him !
 <a href="https://play.google.com/store/apps/details?id=com.studiokurage.paulo" target="_blank">
 	<img src="/images/googleplay_get_it.jpg" alt="Get it on Google Play" />
 </a>
-<a href="#" target="_blank">
+<a href="https://itunes.apple.com/us/app/paulo/id1078163408" target="_blank">
 	<img src="/images/appstore_get_it.jpg" alt="Available on the App Store" />
 </a>
 </figure>

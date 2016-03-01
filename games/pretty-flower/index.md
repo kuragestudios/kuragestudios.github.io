@@ -42,7 +42,7 @@ image:
 <a href="https://play.google.com/store/apps/details?id=com.studiokurage.fleur" target="_blank">
 	<img src="/images/googleplay_get_it.jpg" alt="Get it on Google Play" />
 </a>
-<a href="https://itunes.apple.com/us/app/pretty-flower/id959966566?mt=8" target="_blank">
+<a href="https://itunes.apple.com/us/app/pretty-flower/id959966566" target="_blank">
 	<img src="/images/appstore_get_it.jpg" alt="Available on the App Store" />
 </a>
 </figure>
