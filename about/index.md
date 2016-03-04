@@ -26,17 +26,19 @@ For the time being, we develop games exclusively on the mobile platform. However
 
 __Brave Developers__
 
-<img src="/images/team/aurelien.png" class="pixelated" width="64" />
+<img src="/images/team/aurelien.png" class="pixelated" width="96" />
 
 __Lovely Testers__
 
-<img src="/images/team/ben.png" class="pixelated" width="64" />
-<img src="/images/team/eri.png" class="pixelated" width="64" />
-<img src="/images/team/flo.png" class="pixelated" width="64" />
-<img src="/images/team/max.png" class="pixelated" width="64" />
-<img src="/images/team/mika.png" class="pixelated" width="64" />
-<img src="/images/team/nicole.png" class="pixelated" width="64" />
-<img src="/images/team/paul.png" class="pixelated" width="64" />
+<div>
+  <img src="/images/team/ben.png" class="pixelated" width="96" style="vertical-align: bottom" />
+  <img src="/images/team/eri.png" class="pixelated" width="96" style="vertical-align: bottom" />
+  <img src="/images/team/flo.png" class="pixelated" width="96" style="vertical-align: bottom" />
+  <img src="/images/team/max.png" class="pixelated" width="96" style="vertical-align: bottom" />
+  <img src="/images/team/mika.png" class="pixelated" width="96" style="vertical-align: bottom" />
+  <img src="/images/team/nicole.png" class="pixelated" width="96" style="vertical-align: bottom" />
+  <img src="/images/team/paul.png" class="pixelated" width="96" style="vertical-align: bottom" />
+</div>
 
 ### Location
 
