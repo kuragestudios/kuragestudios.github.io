@@ -22,6 +22,22 @@ At the studio, we encourage our people to experiment, play and share new games.
 
 For the time being, we develop games exclusively on the mobile platform. However, we hope to develop for home consoles in the coming years.
 
+### Team
+
+__Brave Developers__
+
+<img src="/images/team/aurelien.png" class="pixelated" width="64" />
+
+__Lovely Testers__
+
+<img src="/images/team/ben.png" class="pixelated" width="64" />
+<img src="/images/team/eri.png" class="pixelated" width="64" />
+<img src="/images/team/flo.png" class="pixelated" width="64" />
+<img src="/images/team/max.png" class="pixelated" width="64" />
+<img src="/images/team/mika.png" class="pixelated" width="64" />
+<img src="/images/team/nicole.png" class="pixelated" width="64" />
+<img src="/images/team/paul.png" class="pixelated" width="64" />
+
 ### Location
 
 We are based in Tokyo, Japan.

@@ -21,5 +21,3 @@ video:
 </figure>
 
 The terms of use of our Games are available by following this [link](/games/terms).
-
-
