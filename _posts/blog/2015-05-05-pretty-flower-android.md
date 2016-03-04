@@ -5,8 +5,8 @@ modified:
 categories: blog
 excerpt:
 tags: ["game", "puzzle", "android"]
-video:
-  feature: "r1xohS2u69E"
+image:
+  feature: pretty-flower/feature.jpg
 author: aurelien
 date: 2015-05-05T12:00:00-00:00
 ---
@@ -30,7 +30,7 @@ We are pleased to announce the launch of our new game <a href="/games/pretty-flo
 
 You can download Pretty Flower on Google Play Store by following the link above.
 
-<a href="https://play.google.com/store/apps/details?id=com.studiokurage.fleur">
+<a href="https://play.google.com/store/apps/details?id=com.studiokurage.fleur" target="_blank">
 	<img src="/images/googleplay_get_it.jpg" alt="Get it on Google Play" />
 </a>
 

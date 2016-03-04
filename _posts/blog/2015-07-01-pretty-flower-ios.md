@@ -4,9 +4,9 @@ title: "Pretty Flower on iOS"
 modified:
 categories: blog
 excerpt:
-tags: ["game", "puzzle", "android"]
-video:
-  feature: "r1xohS2u69E"
+tags: ["game", "puzzle", "ios", "iphone", "ipad"]
+image:
+  feature: pretty-flower/feature.jpg
 author: aurelien
 date: 2015-07-01T12:00:00-00:00
 ---
