@@ -11,6 +11,7 @@ Revive the golden age of arcade games in the 80th with Paulo, the new game from 
 
 Paul is an original game pushing forward simple but challenging gameplay of yesteryear.
 
+
 **A little background**
 
 Paulo is monitoring a site overnight but it isn’t exactly going smoothly…
@@ -33,6 +34,21 @@ Please help him !
 
 Catch and collect fruits and vegetables to unlock new costumes!
 
+<figure>
+	<a href="/images/paulo/paulo-title.png">
+		<img src="/images/paulo/paulo-push.png" alt="image" width="24%" />
+	</a>
+	<a href="/images/paulo/paulo-avoid.png">
+		<img src="/images/paulo/paulo-avoid.png" alt="image" width="24%" />
+	</a>
+	<a href="/images/paulo/paulo-collect.png">
+		<img src="/images/paulo/paulo-collect.png" alt="image" width="24%" />
+	</a>
+	<a href="/images/paulo/paulo-unlock.png">
+		<img src="/images/paulo/paulo-unlock.png" alt="image" width="24%" />
+	</a>
+</figure>
+
 ---
 
 <figure class="half">
@@ -49,6 +65,25 @@ By downloading this game you are agreeing to our [terms of service](/games/terms
 ---
 
 You like Paulo? Like us on <a href="http://facebook.com/KurageStudios" target="_blank"> Facebook</a> or follow us on  <a href="http://twitter.com/KurageStudios" target="_blank">Twitter</a> for the latest news.
+
+---
+
+**Changelog**
+
+***Version 1.1***  
+● 8 costumes are added for Paulo  
+● Non-rewarded advertisement can be skipped after 5 seconds  
+● Some sprites are redrawn  
+● A bug on the background music is fixed  
+
+***Version 1.0.1***  
+● Performances are improved  
+● Some sprites are redrawn  
+
+***Version 1.0***  
+● Initial release
+
+**Screenshots**
 
 <figure>
 	<a href="/images/paulo/screen-title.png">
@@ -70,20 +105,3 @@ You like Paulo? Like us on <a href="http://facebook.com/KurageStudios" target="_
 		<img src="/images/paulo/screen-victory.png" alt="image" width="30%" />
 	</a>
 </figure>
-
----
-
-**Changelog**
-
-***Version 1.1***  
-● 8 costumes are added for Paulo  
-● Non-rewarded advertisement can be skipped after 5 seconds  
-● Some sprites are redrawn  
-● A bug on the background music is fixed  
-
-***Version 1.0.1***  
-● Performances are improved  
-● Some sprites are redrawn  
-
-***Version 1.0***  
-● Initial release

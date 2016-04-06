@@ -20,16 +20,16 @@ What's new?
 
 <figure>
 	<a href="/images/paulo/paulo-title.png">
-		<img src="/images/paulo/paulo-title.png" alt="image" width="20%" />
+		<img src="/images/paulo/paulo-push.png" alt="image" width="24%" />
 	</a>
 	<a href="/images/paulo/paulo-avoid.png">
-		<img src="/images/paulo/paulo-avoid.png" alt="image" width="20%" />
+		<img src="/images/paulo/paulo-avoid.png" alt="image" width="24%" />
 	</a>
 	<a href="/images/paulo/paulo-collect.png">
-		<img src="/images/paulo/paulo-collect.png" alt="image" width="20%" />
+		<img src="/images/paulo/paulo-collect.png" alt="image" width="24%" />
 	</a>
 	<a href="/images/paulo/paulo-unlock.png">
-		<img src="/images/paulo/paulo-unlock.png" alt="image" width="20%" />
+		<img src="/images/paulo/paulo-unlock.png" alt="image" width="24%" />
 	</a>
 </figure>
 
