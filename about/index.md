@@ -24,7 +24,7 @@ For the time being, we develop games exclusively on the mobile platform. However
 
 ### Developer
 
-<img src="http://localhost:4000/images/bio-aurelien.jpg" class="bio-photo" alt="Aurélien bio photo">
+<img src="/images/bio-aurelien.jpg" class="bio-photo" alt="Aurélien bio photo">
 <small>Aurélien Drouet</small>
 
 ### Testing Team
