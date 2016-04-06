@@ -9,14 +9,21 @@
 
 <body id="page">
 
-<canvas id="sea" style="position: absolute;z-index:-10;"></canvas>
-
 {% include navigation.html %}
 
-{% include scripts.html %}
+<div id="main" role="main">
+  <article class="entry">
+    <div class="entry-wrapper">
+    <ul class="post-list">
+    {% for post in site.categories.blog %}
+      <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span></a></article></li>
+    {% endfor %}
+    </ul>
+</div>
+  </article>
+</div><!-- /#main -->
 
-<script type="text/javascript" src="https://github.com/downloads/processing-js/processing-js/processing-1.3.6.min.js"></script>
-<script src="/assets/js/sea.min.js"></script>
+{% include scripts.html %}
 
 </body>
 </html>

@@ -31,6 +31,8 @@ Please help him !
 ● Locks are opened with keys.  
 ● Beware of mushrooms!  
 
+Catch and collect fruits and vegetables to unlock new costumes!
+
 ---
 
 <figure class="half">
@@ -68,3 +70,20 @@ You like Paulo? Like us on <a href="http://facebook.com/KurageStudios" target="_
 		<img src="/images/paulo/screen-victory.png" alt="image" width="30%" />
 	</a>
 </figure>
+
+---
+
+**Changelog**
+
+***Version 1.1***  
+● 8 costumes are added for Paulo  
+● Non-rewarded advertisement can be skipped after 5 seconds  
+● Some sprites are redrawn  
+● A bug on the background music is fixed  
+
+***Version 1.0.1***  
+● Performances are improved  
+● Some sprites are redrawn  
+
+***Version 1.0***  
+● Initial release

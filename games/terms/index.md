@@ -6,11 +6,11 @@ image:
   feature: terms-image.jpg
 ---
 
-Le texte suivant a été mis à jour pour la dernière fois le 6 avril 2015.
+Le texte suivant a été mis à jour pour la dernière fois le 6 avril 2016.
 
 Kurage Studios n'est pas une société mais la personne Aurélien Drouet.
 
-Kurage Studios propose pour l'instant un seul Jeu, Pretty Flower.
+Kurage Studios propose pour l'instant deux jeux jeux: Pretty Flower et Paulo.
 
 ##1- À propos de ces conditions
 

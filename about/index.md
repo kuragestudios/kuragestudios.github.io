@@ -22,13 +22,12 @@ At the studio, we encourage our people to experiment, play and share new games.
 
 For the time being, we develop games exclusively on the mobile platform. However, we hope to develop for home consoles in the coming years.
 
-### Team
+### Developer
 
-__Brave Developers__
+<img src="http://localhost:4000/images/bio-aurelien.jpg" class="bio-photo" alt="Aurélien bio photo">
+<small>Aurélien Drouet</small>
 
-<img src="/images/team/aurelien.png" class="pixelated" width="96" />
-
-__Lovely Testers__
+### Testing Team
 
 <div>
   <img src="/images/team/ben.png" class="pixelated" width="96" style="vertical-align: bottom" />

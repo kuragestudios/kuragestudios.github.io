@@ -24,16 +24,11 @@ image:
 
 **Pretty Flower is a simple and charming puzzle game offering:**
 
-● beautiful flowers to be discovered with the passing seasons,
-
-● a relaxing audio visual experience following the vagaries of the weather,
-
-● about a hundred levels with progressive difficulty to stimulate your brain,
-
-● helpful magical boosters to help with challenging levels,
-
-● leaderboards to watch your friends and competitors,
-
+● beautiful flowers to be discovered with the passing seasons,  
+● a relaxing audio visual experience following the vagaries of the weather,  
+● about a hundred levels with progressive difficulty to stimulate your brain,  
+● helpful magical boosters to help with challenging levels,  
+● leaderboards to watch your friends and competitors,  
 ● a level editor to give free rein to your imagination.
 
 ---
