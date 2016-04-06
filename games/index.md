@@ -11,7 +11,7 @@ video:
 <a href="/games/paulo"><img src="/images/paulo/title.png" alt="image"></a>
 </figure>
 
-You can also see the game list direclty on Google Play and the App Store.
+You can also check out the game list direclty on Google Play and the App Store.
 
 <figure class="half">
 <a href="https://play.google.com/store/search?q=pub:Aurelien+Drouet" target="_blank">
