@@ -7,6 +7,21 @@ image:
   feature: paulo/feature.png
 ---
 
+<figure>
+	<a href="/images/paulo/paulo-title.png">
+		<img src="/images/paulo/paulo-push.png" alt="image" width="24%" />
+	</a>
+	<a href="/images/paulo/paulo-avoid.png">
+		<img src="/images/paulo/paulo-avoid.png" alt="image" width="24%" />
+	</a>
+	<a href="/images/paulo/paulo-collect.png">
+		<img src="/images/paulo/paulo-collect.png" alt="image" width="24%" />
+	</a>
+	<a href="/images/paulo/paulo-unlock.png">
+		<img src="/images/paulo/paulo-unlock.png" alt="image" width="24%" />
+	</a>
+</figure>
+
 Revive the golden age of arcade games in the 80th with Paulo, the new game from Kurage Studios.
 
 Paul is an original game pushing forward simple but challenging gameplay of yesteryear.
@@ -34,21 +49,6 @@ Please help him !
 
 Catch and collect fruits and vegetables to unlock new costumes!
 
-<figure>
-	<a href="/images/paulo/paulo-title.png">
-		<img src="/images/paulo/paulo-push.png" alt="image" width="24%" />
-	</a>
-	<a href="/images/paulo/paulo-avoid.png">
-		<img src="/images/paulo/paulo-avoid.png" alt="image" width="24%" />
-	</a>
-	<a href="/images/paulo/paulo-collect.png">
-		<img src="/images/paulo/paulo-collect.png" alt="image" width="24%" />
-	</a>
-	<a href="/images/paulo/paulo-unlock.png">
-		<img src="/images/paulo/paulo-unlock.png" alt="image" width="24%" />
-	</a>
-</figure>
-
 ---
 
 <figure class="half">
@@ -69,6 +69,14 @@ You like Paulo? Like us on <a href="http://facebook.com/KurageStudios" target="_
 ---
 
 **Changelog**
+
+***Version 1.3***  
+● Add a replay button  
+● Update the menu  
+
+***Version 1.2***  
+● Pause automatically the game when the application goes to background  
+● Fix a bug occurring on slow devices  
 
 ***Version 1.1***  
 ● 8 costumes are added for Paulo  

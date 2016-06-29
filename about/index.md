@@ -42,9 +42,3 @@ For the time being, we develop games exclusively on the mobile platform. However
 ### Location
 
 We are based in Tokyo, Japan.
-
-### Contact
-
-Please contact us by clicking the button below.
-
-<a href="mailto:kurage.studios@gmail.com" class="btn">Contact Us</a>
