@@ -33,6 +33,8 @@ tags:
   - android
 banner: /images/kid-odysseus/banner.png
 thumbnail: /images/kid-odysseus/thumbnail.png
+logo: /images/kid-odysseus/logo.png
+icon: /images/kid-odysseus/icon.png
 images:
 testimonials:
 versions:

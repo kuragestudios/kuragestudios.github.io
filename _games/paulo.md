@@ -39,6 +39,7 @@ tags:
 banner: /images/paulo/banner.png
 thumbnail: /images/paulo/thumbnail.png
 logo: /images/paulo/logo.png
+icon: /images/paulo/icon.png
 images:
   - url: /images/paulo/carousel-title.png
     alt: Title

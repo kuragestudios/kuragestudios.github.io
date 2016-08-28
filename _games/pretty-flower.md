@@ -35,6 +35,7 @@ tags:
 banner: /images/pretty-flower/banner.jpg
 thumbnail: /images/pretty-flower/thumbnail.jpg
 logo: /images/pretty-flower/logo.jpg
+icon: /images/pretty-flower/icon.png
 images:
   - url: /images/pretty-flower/carousel-flower.jpg
     alt: Flower
