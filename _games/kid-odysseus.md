@@ -2,7 +2,7 @@
 uid: 3
 name: kid-odysseus
 title: Kid Odysseus
-description: abc
+description: In construction... Stay tuned ;-)
 category: Arcade
 date: December 2016
 developer: Aurelien Drouet
