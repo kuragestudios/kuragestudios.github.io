@@ -79,7 +79,7 @@
                         <li>
                         {% case social %}
                         {% when 'facebook' %}
-                        <div class="fb-like" data-href="http://www.kuragestudios.com" data-layout="button" data-action="like" data-size="large" data-show-faces="false" data-share="false"></div>
+                        <div class="fb-like" data-href="http://www.kuragestudios.com/games/{{include.game.name}}" data-layout="button" data-action="like" data-size="large" data-show-faces="false" data-share="false"></div>
                         {% when 'twitter' %}
                         <a href="https://twitter.com/share" class="twitter-share-button" data-url="{{site.url}}/games/{{include.game.name}}" data-hashtags="{{include.game.tags | join :', '}}" data-size="large" data-show-count="false">Tweet</a>
                         {% else %}
