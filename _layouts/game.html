@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+
+    {% include head.html %}
+
+    <body id="page-top" class="index">
+    {% include social-js.html %}
+    
+    <div class="container">
+        {% assign game = site.games[page.game-id] %}
+        {% include game.html game=game %}
+    </div>
+
+    {% include footer.html %}
+    {% include js.html %}
+
+    </body>
+</html>

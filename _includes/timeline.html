@@ -1,0 +1,24 @@
+<ul class="timeline">
+    {% for event in include.timeline.events %}
+    <li class="{{event.type}}">
+        {% if event.title %}
+        <div class="timeline-image">
+            <img class="img-circle img-responsive" src="{{event.image}}" alt="">
+        </div>
+        <div class="timeline-panel">
+            <div class="timeline-heading">
+                <h4>{{event.date}}</h4>
+                <h4 class="subheading">{{event.title}}</h4>
+            </div>
+            <div class="timeline-body">
+                <p class="text-muted">{{event.description}}</p>
+            </div>
+        </div>
+        {% else %}
+        <div class="timeline-image">
+            <h4>{{ event.description }}</h4>
+        </div>
+        {% endif %}
+    </li>
+    {% endfor %}
+</ul>

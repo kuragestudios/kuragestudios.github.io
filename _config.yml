@@ -1,45 +1,41 @@
-# Site wide configuration
-
-title: Kurage Studios
-locale: en_US
-description: Independant video game makers
-logo: logo-512.png
-search: true
 url: http://www.kuragestudios.com
+baseurl: 
 
+# Site settings
+title: Kurage Studios
+email: kuragestudios@gmail.com
+description: "Indie Game Company"
+google-analytics: "UA-653994-8"
 
-# Jekyll configuration
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+socials:
+  - name: twitter
+    title: Twitter
+    url: https://twitter.com/kuragestudios/
+  - name: facebook
+    title: Facebook
+    url: https://www.facebook.com/KurageStudios/
 
-permalink:   /:categories/:title/
-markdown:    kramdown
-highlighter: rouge
-sass:
-  sass_dir: _sass
-  style: compressed
-gems:
-  - jekyll-sitemap
+# Postal address (add as many lines as necessary)
+address:
+  - line: Tokyo, Japan
 
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..2
-  enable_coderay: false
+# Stores
+stores:
+  app-store:
+    title: App Store
+    image: /images/appstore_get_it.jpg
+  google-play:
+    title: Google Play
+    image: /images/googleplay_get_it.jpg
 
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "vendor"]
+# Additional collections
+collections:
+  - sections
+  - games
+  - timelines
+  - members
 
-
-# Site owner
-owner:
-  name: Kurage Studios
-  avatar: bio-kuragestudios.jpg
-  email: kurage.studios@gmail.com
-  facebook: kuragestudios
-  twitter: kuragestudios
-  google:
-    analytics: "UA-653994-8"
-    verify:
-    ad-client:
-    ad-slot:
-  bing-verify:
+# Build settings
+markdown: kramdown
+permalink: pretty
