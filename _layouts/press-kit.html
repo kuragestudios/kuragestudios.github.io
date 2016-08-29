@@ -1,10 +1,23 @@
+---
+sections:
+  - name: info
+    title: Info
+  - name: overview
+    title: Overview
+  - name: screenshots
+    title: Screenshots
+  - name: logo-icon
+    title: Logo & Icon
+  - name: version-history
+    title: Version History
+---
 <!DOCTYPE html>
 <html>
 
     {% include head.html %}
 
     <body id="page-top" class="index">
-    {% include navigation.html sections=page.sections %}
+    {% include navigation.html sections=layout.sections %}
     
     <div class="container">
         {% assign game = site.games[page.game-id] %}

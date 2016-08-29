@@ -4,7 +4,7 @@
     {% include head.html %}
 
     <body id="page-top" class="index">
-    {% include social-js.html %}
+    {% include facebook-js.html %}
     
     <div class="container">
         {% assign game = site.games[page.game-id] %}
@@ -12,7 +12,8 @@
     </div>
 
     {% include footer.html %}
-    {% include js.html %}
 
+    {% include js.html %}
+    {% include twitter-js.html %}
     </body>
 </html>
