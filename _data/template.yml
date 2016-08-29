@@ -2,8 +2,8 @@
 color:
   primary: 158AD0
   secondary: 85AABF
-  secondary-dark: 0E5E8C
-  muted: 333333
+  secondary-dark: 333333
+  muted: b4bcc2
 
 # Font Families
 font:
