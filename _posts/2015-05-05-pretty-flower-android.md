@@ -7,7 +7,7 @@ author: aurelien
 date: 2015-05-05
 ---
 
-We are pleased to announce the launch of our new game <a href="/games/pretty-flower">Pretty Flower</a> on Android.
+We are pleased to announce the launch of our first game <a href="/games/pretty-flower">Pretty Flower</a> on Android.
 
 You can download Pretty Flower on Google Play Store by following the link above.
 
