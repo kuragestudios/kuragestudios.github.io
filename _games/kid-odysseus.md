@@ -36,6 +36,19 @@ thumbnail: /images/kid-odysseus/thumbnail.png
 logo: /images/kid-odysseus/logo.png
 icon: /images/kid-odysseus/icon.png
 images:
+screenshots:
+  - url: /images/kid-odysseus/animation-00.gif
+    alt: Animation 00
+  - url: /images/kid-odysseus/animation-01.gif
+    alt: Animation 01
+  - url: /images/kid-odysseus/animation-02.gif
+    alt: Animation 02
+  - url: /images/kid-odysseus/animation-03.gif
+    alt: Animation 03
+  - url: /images/kid-odysseus/animation-04.gif
+    alt: Animation 04
+  - url: /images/kid-odysseus/animation-05.gif
+    alt: Animation 05
 testimonials:
 versions:
   - number: 1.0

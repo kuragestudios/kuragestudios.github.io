@@ -52,6 +52,14 @@ images:
   - url: /images/paulo/carousel-unlock.png
     alt: Unlock
 screenshots:
+  - url: /images/paulo/animation-00.gif
+    alt: Animation 00
+  - url: /images/paulo/animation-01.gif
+    alt: Animation 01
+  - url: /images/paulo/animation-02.gif
+    alt: Animation 02
+  - url: /images/paulo/animation-03.gif
+    alt: Animation 03
 testimonials:
   - author: Mahrez
     message: Best game! Must have if you like retro game!
