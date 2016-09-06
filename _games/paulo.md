@@ -76,4 +76,6 @@ versions:
     description: Add a replay button<br>Update the menu
   - number: 1.4
     description: Added 1 in-app purchase "No Ads + Level Selector"<br>Update the user interface<br>Added French localization
+  - number: 1.5
+    description: Camera bug fix<br>Recover your best score from the leaderboard<br>Recover your collection from achievements
 ---
