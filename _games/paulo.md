@@ -43,6 +43,8 @@ icon: /images/paulo/icon.png
 images:
   - url: /images/paulo/carousel-title.png
     alt: Title
+  - url: /images/paulo/carousel-screenshot.png
+    alt: Screenshot
   - url: /images/paulo/carousel-avoid.png
     alt: Avoid
   - url: /images/paulo/carousel-push.png
