@@ -1,14 +1,17 @@
     <!-- Image Modal -->
     <div class="modal fade" id="image-modal" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-body">
-                    <img src="" id="image-modal-image" style="width:100%" >
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
                 </div>
-
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
+            </div>
+            <div class="modal-body">
+                <img src="" id="image-modal-image" >
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
             </div>
         </div>
     </div>
@@ -17,7 +20,7 @@
     $(function() {
         $('.image-modal').on('click', function() {
           $('#image-modal-image').attr('src', $(this).find('img').attr('src'));
-          $('#image-modal').modal('show');   
-        });   
+          $('#image-modal').modal('show');
+        });
     });
     </script>

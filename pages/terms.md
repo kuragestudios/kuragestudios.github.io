@@ -52,7 +52,7 @@ Kurage Studios propose pour l'instant deux jeux: Pretty Flower et Paulo.
 
 4.3- Vous êtes seul responsable de la sauvegarde de vos Objets virtuels. Nous ne nous engageons pas à vous restituer vos Objets virtuels suite à une mauvaise manipulation ou une défaillance logiciel ou matérielle.
 
-4.4- Vous convenez que les Objets virtuels que vous nous achetez constituent des ventes définitives. Une fois une transaction effectuée, celle-ci ne peut faire l'objet d'aucun remboursement. Si vous vivez dans un pays de l'Union européenne, vous disposez de certains droits de rétractation pour les achats effectués à distance. Veuillez vous renseigner auprès d'Apple ou de Google pour prendre connaissance des procédures de remboursement. 
+4.4- Vous convenez que les Objets virtuels que vous nous achetez constituent des ventes définitives. Une fois une transaction effectuée, celle-ci ne peut faire l'objet d'aucun remboursement. Si vous vivez dans un pays de l'Union européenne, vous disposez de certains droits de rétractation pour les achats effectués à distance. Veuillez vous renseigner auprès d'Apple ou de Google pour prendre connaissance des procédures de remboursement.
 
 ## 5. Propriété intellectuelle
 

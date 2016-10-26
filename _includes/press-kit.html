@@ -36,7 +36,7 @@
                             <dt>STORES</dt>
                             <dd>
                             {% for store in include.game.stores %}
-                                <a href="{{site.stores[store.name].image}}">{{site.stores[store.name].title}}</a> 
+                                <a href="{{site.stores[store.name].image}}">{{site.stores[store.name].title}}</a>
                             {% endfor %}
                             </dd>
                             <dt>PRICE</dt>
@@ -95,7 +95,7 @@
                         {% endfor %}
                     </ul>
                     {% endif %}
-                
+
                     {% if include.game.tips %}
                     <h3>How To Play?</h3>
                     <ul>
@@ -141,7 +141,7 @@
             <section id="version-history">
                 <h2 class="text-center">Version History</h2>
                 <hr class="star-primary">
-                
+
                 <div class="row">
                     <div class="col-lg-12">
                         {% for version in include.game.versions reversed %}

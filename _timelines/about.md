@@ -3,18 +3,18 @@ name: about
 events:
   - title: Birth
     date: May 2013
-    description: The studio is founded 
+    description: The studio is founded
 
   - title: Website
     date: May 2013
     description: Website is opened
     type: timeline-inverted
-    
+
   - title: Name Change
     date: April 2015
     image: /images/logo.png
     description: Studio Kurage became Kurage Studios!
-    
+
   - title: First Game Released
     date: June 2015
     image: /images/pretty-flower/icon.png

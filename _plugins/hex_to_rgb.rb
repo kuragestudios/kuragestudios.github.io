@@ -20,6 +20,7 @@
 module Jekyll
   module HexToRGB
     def hex_to_rgb(hexval)
+      hexval = hexval.to_s
       if hexval.length.even?
         hexval.scan(/../).map {|color| color.to_i(16)}
       else
