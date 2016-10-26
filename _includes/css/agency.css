@@ -49,6 +49,10 @@ dl > dt {
 .text-muted {
     color: #{{ site.data.template.color.primary-light }};
 }
+.badge {
+    color: #{{ site.data.template.color.secondary-light }};
+    background-color: #{{ site.data.template.color.secondary-dark }};
+}
 .form-control {
     background-color: #{{ site.data.template.color.secondary-light }};
     border-color: #{{ site.data.template.color.secondary-normal }};
@@ -453,7 +457,7 @@ section h3.section-subheading {
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
-    background: rgba(0,0,0,.8); /* Fallback when no plugin support */
+    background: rgba(252,67,73,.8); /* Fallback when no plugin support */
     background: rgba({{ site.data.template.color.tertiary | hex_to_rgb | join: ',' }}, .8);
 }
 
