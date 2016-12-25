@@ -2,7 +2,7 @@
 uid: 3
 name: kid-odysseus
 title: Kid Odysseus
-description: In construction... Stay tuned ;-)
+description: Wander through hunted mazes to gather magic pearls with Kid Odysseus!
 category: Arcade
 date: December 2016
 developer: Aurelien Drouet
@@ -36,6 +36,16 @@ thumbnail: /images/kid-odysseus/thumbnail.png
 logo: /images/kid-odysseus/logo.png
 icon: /images/kid-odysseus/icon.png
 images:
+  - url: /images/kid-odysseus/carousel-00.png
+    alt: Title
+  - url: /images/kid-odysseus/carousel-01.png
+    alt: Run
+  - url: /images/kid-odysseus/carousel-02.png
+    alt: Gather
+  - url: /images/kid-odysseus/carousel-03.png
+    alt: Fight
+  - url: /images/kid-odysseus/carousel-04.png
+    alt: Fun & Retro
 screenshots:
   - url: /images/kid-odysseus/animation-00.gif
     alt: Animation 00
