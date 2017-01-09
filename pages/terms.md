@@ -3,11 +3,11 @@ layout: page
 title: Conditions d'utilisation
 ---
 
-Le texte suivant a été mis à jour pour la dernière fois le 6 avril 2016.
+Le texte suivant a été mis à jour pour la dernière fois le 9 janvier 2017.
 
 Kurage Studios n'est pas une société mais la personne Aurélien Drouet.
 
-Kurage Studios propose pour l'instant deux jeux: Pretty Flower et Paulo.
+Kurage Studios propose pour l'instant trois jeux: Pretty Flower, Paulo et Kid Odysseus.
 
 ## 1. À propos de ces conditions
 
