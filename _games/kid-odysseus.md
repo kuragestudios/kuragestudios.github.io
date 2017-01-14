@@ -22,6 +22,10 @@ platforms:
   - iOS
   - Android
 stores:
+  - name: app-store
+    url: https://itunes.apple.com/us/app/kid-odysseus/id1123300764
+  - name: google-play
+    url: https://play.google.com/store/apps/details?id=com.studiokurage.kid
 price: Free
 socials:
   - twitter
