@@ -36,7 +36,9 @@
                             <dt>STORES</dt>
                             <dd>
                             {% for store in include.game.stores %}
-                                <a href="{{site.stores[store.name].image}}">{{site.stores[store.name].title}}</a>
+                              <a href="{{store.url}}">
+                                <img src="{{site.stores[store.name].image}}" alt="{{store.name}}" class="img-responsive-sm">
+                              </a>
                             {% endfor %}
                             </dd>
                             <dt>PRICE</dt>
