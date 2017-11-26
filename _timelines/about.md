@@ -24,7 +24,7 @@ events:
   - title: New Member
     date: November 2015
     image: /images/members/kero.jpg
-    description: Kero joined the team<br>as the lead planner.
+    description: Kero joined the team<br>as the lead supporter.
 
   - title: Second Game Released
     date: February 2016
@@ -32,10 +32,16 @@ events:
     description: Paulo is released<br>on the App Store and Google Play
     type: timeline-inverted
 
-  - title: New Member
-    date: August 2016
-    image: /images/members/kirin.jpg
-    description: Kirin joined the team<br>as the lead designer.
+  - title: Third Game Released
+    date: December 2016
+    image: /images/kid-odysseus/icon.png
+    description: Kid Odysseus is released<br>on the App Store and Google Play.
+
+  - title: Fourth Game Released
+    date: December 2017
+    image: /images/pipe-maze-3d/icon.png
+    description: Pipe Maze 3D is released<br>on the App Store and Google Play.
+    type: timeline-inverted
 
   - description: To be<br>continued!
 ---

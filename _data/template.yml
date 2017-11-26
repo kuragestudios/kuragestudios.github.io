@@ -1,14 +1,15 @@
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary-dark: 2C3E50
-  primary-normal: 2A86A9
-  primary-light: 6DBCDB
+  primary-dark: 0458A9
+  primary-normal: 2288EE
+  primary-light: 4A9EF0
   secondary-light: FFFFFF
-  secondary-normal: D7DADB
-  secondary-dark: 7C8F95
-  tertiary: FC4349
+  secondary-normal: f8f8f8
+  secondary-dark: C3C3C3
+  tertiary: FB134D
 
 # Font Families
 font:
+  brand: 'Sigmar One, "Helvetica Neue",Helvetica,Arial,sans-serif'
   primary: 'Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif'
-  secondary: '"Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif'
+  secondary: '"Open Sans Condensed", "Helvetica Neue", Helvetica,Arial,sans-serif'
