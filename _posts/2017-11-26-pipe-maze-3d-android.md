@@ -3,10 +3,10 @@ layout: post
 title: "Pipe Maze 3D on Android"
 categories: news
 tags: ["game", "arcade", "android"]
-date: 2016-12-24
+date: 2017-11-26
 ---
 
-We are pleased to announce the launch of our third game <a href="/games/pipe-maze-3d">Pipe Maze 3D</a> on Android.
+We are pleased to announce the launch of our fourth game <a href="/games/pipe-maze-3d">Pipe Maze 3D</a> on Android.
 
 You can download Pipe Maze 3D on Google Play Store by following the link above.
 

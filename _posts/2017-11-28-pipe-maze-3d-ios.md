@@ -3,7 +3,7 @@ layout: post
 title: "Pipe Maze 3D on iOS"
 categories: news
 tags: ["game", "arcade", "ios", "iphone", "ipad"]
-date: 2017-01-13
+date: 2017-11-28
 ---
 
 <a href="/games/pipe-maze-3d">Pipe Maze 3D</a> is finally available on the App Store.
