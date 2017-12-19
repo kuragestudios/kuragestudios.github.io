@@ -80,4 +80,6 @@ versions:
     description: Added 1 in-app purchase "No Ads + Level Selector"<br>Update the user interface<br>Added French localization
   - number: 1.5
     description: Camera bug fix<br>Recover your best score from the leaderboard<br>Recover your collection from achievements
+  - number: 1.6
+    description: Add two new blocks.<br>Performance improved.<br>Menu improved.
 ---

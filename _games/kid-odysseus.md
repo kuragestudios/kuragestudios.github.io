@@ -67,4 +67,8 @@ testimonials:
 versions:
   - number: 1.0
     description: Initial release
+  - number: 1.1
+    description: Add 4 new maps.<br>Few fixes.
+  - number: 1.2
+    description: Add 4 new maps.
 ---
