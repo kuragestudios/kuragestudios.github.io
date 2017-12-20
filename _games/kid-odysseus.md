@@ -64,6 +64,10 @@ screenshots:
   - url: /images/kid-odysseus/animation-05.gif
     alt: Animation 05
 testimonials:
+  - author: Eddy
+    message: Fun take on a classic, with interesting progression. Support is also responsive and effective. 5/5 will play again.
+  - author: Ggg Ggg
+    message: I like it a lot. It is like Pac-Man but with gravity!
 versions:
   - number: 1.0
     description: Initial release
