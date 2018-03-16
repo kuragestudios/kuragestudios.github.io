@@ -1,5 +1,5 @@
 ---
-uid: 4
+uid: 3
 name: pipe-maze-3d
 title: Pipe Maze 3D
 description: Come and train your brain to solve three-dimensional mazes with Pipe Maze 3D!

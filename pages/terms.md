@@ -3,11 +3,16 @@ layout: page
 title: Conditions d'utilisation
 ---
 
-Le texte suivant a été mis à jour pour la dernière fois le 26 novembre 2017.
+Le texte suivant a été mis à jour pour la dernière fois le 28 janvier 2018.
 
 Kurage Studios n'est pas une société mais la personne Aurélien Drouet.
 
-Kurage Studios propose pour l'instant quatre jeux: Pretty Flower, Paulo, Kid Odysseus et Pipe Maze 3D.
+Kurage Studios propose pour les jeu suivants:
+- Pretty Flower
+- Paulo
+- Kid Odysseus
+- Pipe Maze 3D
+- Just Maths Training
 
 ## 1. À propos de ces conditions
 

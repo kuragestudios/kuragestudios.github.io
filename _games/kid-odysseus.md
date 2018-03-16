@@ -1,5 +1,5 @@
 ---
-uid: 3
+uid: 2
 name: kid-odysseus
 title: Kid Odysseus
 description: Wander through hunted mazes to gather magic pearls with Kid Odysseus!
