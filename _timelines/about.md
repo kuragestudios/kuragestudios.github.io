@@ -43,5 +43,10 @@ events:
     description: Pipe Maze 3D is released<br>on the App Store and Google Play.
     type: timeline-inverted
 
+  - title: Fifth Game Released
+    date: March 2018
+    image: /images/just-maths-training/icon.png
+    description: Just Maths Training is released<br>on the App Store and Google Play.
+
   - description: To be<br>continued!
 ---
