@@ -2,7 +2,7 @@
 uid: 2
 name: kid-odysseus
 title: Kid Odysseus
-description: Wander through hunted mazes to gather magic pearls with Kid Odysseus!
+description: Wander through haunted mazes to gather magic pearls with Kid Odysseus!
 category: Arcade
 date: December 2016
 developer: Aurelien Drouet
