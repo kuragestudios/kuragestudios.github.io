@@ -62,6 +62,8 @@ screenshots:
     alt: Animation 02
   - url: /images/paulo/animation-03.gif
     alt: Animation 03
+previews:
+  - xp6RN9XDwVo
 testimonials:
   - author: Mahrez
     message: Best game! Must have if you like retro game!

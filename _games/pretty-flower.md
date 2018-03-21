@@ -45,6 +45,15 @@ images:
     alt: Level
   - url: /images/pretty-flower/carousel-editor.jpg
     alt: Editor
+screenshots:
+  - url: /images/pretty-flower/carousel-flower.jpg
+    alt: Flower
+  - url: /images/pretty-flower/carousel-weather.jpg
+    alt: Weather
+  - url: /images/pretty-flower/carousel-level.jpg
+    alt: Level
+  - url: /images/pretty-flower/carousel-editor.jpg
+    alt: Editor
 testimonials:
   - author: Nicole
     message: Wonderful 😊 I love this game and its poetic world!
@@ -56,4 +65,3 @@ versions:
 credits: true
 
 ---
-

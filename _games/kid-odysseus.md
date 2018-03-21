@@ -63,6 +63,8 @@ screenshots:
     alt: Animation 04
   - url: /images/kid-odysseus/animation-05.gif
     alt: Animation 05
+previews:
+  - GdV5L1pPlcc
 testimonials:
   - author: Eddy
     message: Fun take on a classic, with interesting progression. Support is also responsive and effective. 5/5 will play again.

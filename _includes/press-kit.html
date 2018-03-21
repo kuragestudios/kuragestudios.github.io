@@ -36,9 +36,7 @@
                             <dt>STORES</dt>
                             <dd>
                             {% for store in include.game.stores %}
-                              <a href="{{store.url}}">
-                                <img src="{{site.stores[store.name].image}}" alt="{{store.name}}" class="img-responsive-sm">
-                              </a>
+                              <a href="{{store.url}}">{{site.stores[store.name].title}}</a>
                             {% endfor %}
                             </dd>
                             <dt>PRICE</dt>
@@ -106,6 +104,17 @@
                         {% endfor %}
                     </ul>
                     {% endif %}
+                </div>
+            </section>
+
+            <!-- Previews Section -->
+            <section id="previews">
+                <h2 class="text-center">Previews</h2>
+                <hr class="star-primary">
+                <div class="row">
+                  {% for video in include.game.previews %}
+                  <iframe width="960" height="540" src="https://www.youtube.com/embed/{{video}}?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                  {% endfor %}
                 </div>
             </section>
 

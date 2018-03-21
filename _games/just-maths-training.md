@@ -58,6 +58,8 @@ screenshots:
     alt: Keep your mind in shape
   - url: /images/just-maths-training/carousel-improve.jpg
     alt: Improve your mental acuity
+previews:
+  - z15OvVxvb6k
 testimonials:
 versions:
   - number: 1.0

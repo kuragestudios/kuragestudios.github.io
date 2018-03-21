@@ -39,6 +39,8 @@ banner: /images/pipe-maze-3d/banner.png
 thumbnail: /images/pipe-maze-3d/thumbnail.png
 logo: /images/pipe-maze-3d/logo.png
 icon: /images/pipe-maze-3d/icon.png
+previews:
+  - GdV5L1pPlcc
 images:
   - url: /images/pipe-maze-3d/carousel-title.jpg
     alt: Title
@@ -61,8 +63,14 @@ screenshots:
     alt: Enjoy graphic themes
   - url: /images/pipe-maze-3d/carousel-train.jpg
     alt: Train your brain
+previews:
+  - ea3AvLVRcl8
 testimonials:
+  - author: FelixEnFeu
+    message: Windows 95 nostalgia!
 versions:
   - number: 1.0
     description: Initial release
+  - number: 1.1
+    description: You can now reverse camera axis in the options menu. Minor bug fixes.
 ---
