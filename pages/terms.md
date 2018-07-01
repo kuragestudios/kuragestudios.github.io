@@ -13,6 +13,7 @@ Kurage Studios propose pour les jeu suivants:
 - Kid Odysseus
 - Pipe Maze 3D
 - Just Maths Training
+- Pipe Maze AR
 
 ## 1. À propos de ces conditions
 

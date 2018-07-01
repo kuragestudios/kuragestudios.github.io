@@ -2,7 +2,7 @@
 uid: 3
 name: pipe-maze-3d
 title: Pipe Maze 3D
-description: Come and train your brain to solve three-dimensional mazes with Pipe Maze 3D!
+description: Come and train your brain to solve 3D mazes!
 category: Puzzle
 date: December 2017
 developer: Aurelien Drouet
@@ -11,7 +11,7 @@ story: Are you good at solving mazes? Maybe you have not try these ones in 3 dim
 features:
   - 1 new and free maze every day
   - three-dimensional mazes
-  - 4 shapes (flat, wall, shell and box)
+  - 10 shapes (flat, wall, shell, box, sphere, egg, pyramid, diamond, cross, axis)
   - 5 sizes (mini, small, regular, large and giant)
   - over 20 graphic themes
 tips:
@@ -72,5 +72,7 @@ versions:
   - number: 1.0
     description: Initial release
   - number: 1.1
-    description: You can now reverse camera axis in the options menu. Minor bug fixes.
+    description: You can now reverse camera axis in the options menu. Minor bug fixes
+  - number: 1.2
+    description: Add new shapes
 ---

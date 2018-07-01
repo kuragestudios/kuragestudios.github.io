@@ -61,7 +61,11 @@ screenshots:
 previews:
   - z15OvVxvb6k
 testimonials:
+  - author: Bret
+    message: Very clever. Anyone who likes puzzle games should get a kick out of this.
 versions:
   - number: 1.0
     description: Initial release
+  - number: 1.1
+    description: Minor bug fix
 ---

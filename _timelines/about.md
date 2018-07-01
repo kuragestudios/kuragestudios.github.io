@@ -48,5 +48,11 @@ events:
     image: /images/just-maths-training/icon.png
     description: Just Maths Training is released<br>on the App Store and Google Play.
 
+  - title: Sixth Game Released
+    date: July 2018
+    image: /images/pipe-maze-ar/icon.png
+    description: Pipe Maze AR is released<br>on the App Store.
+    type: timeline-inverted
+
   - description: To be<br>continued!
 ---
