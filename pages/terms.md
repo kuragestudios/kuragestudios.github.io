@@ -3,7 +3,7 @@ layout: page
 title: Conditions d'utilisation
 ---
 
-Le texte suivant a été mis à jour pour la dernière fois le 28 janvier 2018.
+Le texte suivant a été mis à jour pour la dernière fois le 3 avril 2019.
 
 Kurage Studios n'est pas une société mais la personne Aurélien Drouet.
 
@@ -14,6 +14,7 @@ Kurage Studios propose pour les jeu suivants:
 - Pipe Maze 3D
 - Just Maths Training
 - Pipe Maze AR
+- Tetropaint
 
 ## 1. À propos de ces conditions
 
