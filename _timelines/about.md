@@ -54,7 +54,7 @@ events:
     description: Pipe Maze AR is released<br>on the App Store.
     type: timeline-inverted
 
-  - title: Sixth Game Released
+  - title: Seventh Game Released
     date: April 2019
     image: /images/tetropaint/icon.png
     description: Tetropaint is released<br>on the App Store and Google Play.
