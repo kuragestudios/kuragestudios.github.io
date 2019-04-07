@@ -38,7 +38,7 @@ thumbnail: /images/tetropaint/thumbnail.png
 logo: /images/tetropaint/logo.png
 icon: /images/tetropaint/icon.png
 previews:
-  - N8FyTzmxmG8
+  - EbgqY54KVPo
 images:
   - url: /images/tetropaint/carousel-title.png
     alt: Tetropaint
