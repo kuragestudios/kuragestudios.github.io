@@ -2,7 +2,7 @@
 uid: 5
 name: pipe-maze-ar
 title: Pipe Maze AR
-description: Play 3D mazes in Augmented Reality!
+description: Play 3D mazes in Augmented Reality on your phone!
 category: Puzzle
 date: June 2018
 developer: Aurelien Drouet

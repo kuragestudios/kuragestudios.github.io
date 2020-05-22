@@ -59,5 +59,10 @@ events:
     image: /images/tetropaint/icon.png
     description: Tetropaint is released<br>on the App Store and Google Play.
 
+  - title: Eighth Game Released
+    date: May 2020
+    image: /images/blockhole/icon.png
+    description: Block Hole is released<br>on the App Store and Google Play.
+
   - description: To be<br>continued!
 ---

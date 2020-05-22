@@ -33,6 +33,7 @@ tags:
   - indiegame
   - iphone
   - ipad
+  - android
 banner: /images/tetropaint/banner.png
 thumbnail: /images/tetropaint/thumbnail.png
 logo: /images/tetropaint/logo.png
