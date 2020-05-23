@@ -15,6 +15,7 @@ Kurage Studios propose pour les jeu suivants:
 - Just Maths Training
 - Pipe Maze AR
 - Tetropaint
+- Block Hole
 
 ## 1. À propos de ces conditions
 
