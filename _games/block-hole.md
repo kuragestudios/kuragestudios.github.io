@@ -39,7 +39,7 @@ thumbnail: /images/block-hole/thumbnail.png
 logo: /images/block-hole/logo.png
 icon: /images/block-hole/icon.png
 previews:
-  - EbgqY54KVPo
+  - H7GJ7yb0DD8
 images:
   - url: /images/block-hole/carousel-puzzle.png
     alt: Colorful Puzzles in 3D
