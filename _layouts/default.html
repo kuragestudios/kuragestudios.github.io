@@ -9,7 +9,7 @@
     {% include navigation.html sections=site.sections %}
     {% include header.html %}
 
-    {% assign sorted_sections = (site.sections | sort: 'order') %}
+    {% assign sorted_sections = site.sections | sort: 'order' %}
     {% for section in sorted_sections %}
         {% include section.html section=section %}
     {% endfor %}
