@@ -376,6 +376,7 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    position: relative;
 }
 
 header .intro-text {
@@ -389,6 +390,7 @@ header .intro-text .intro-lead-in {
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
+    display: none;
 }
 
 header .intro-text .intro-heading {
@@ -398,6 +400,7 @@ header .intro-text .intro-heading {
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
+    display: none;
 }
 
 @media(min-width:768px) {
@@ -421,6 +424,48 @@ header .intro-text .intro-heading {
         font-size: 75px;
         font-weight: 700;
         line-height: 75px;
+    }
+}
+
+/* Position the intro call-to-action at the bottom center of the banner
+   with the same spacing as the navbar padding for visual symmetry */
+header .intro-cta {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 25px; /* matches .navbar-default padding */
+    z-index: 5;
+}
+
+@media(min-width:768px) {
+    header .intro-cta {
+        bottom: 25px;
+    }
+}
+
+/* When navbar shrinks, reduce the bottom spacing to match the shrunk navbar padding */
+.navbar-default.navbar-shrink + header .intro-cta {
+    bottom: 10px;
+}
+
+/* Mobile: place the CTA after the intro text with top spacing so it doesn't overlap */
+@media (max-width:767px) {
+    /* Ensure header content clears the fixed navbar on small screens */
+    header {
+        padding-top: 70px;
+    }
+    header .intro-cta {
+        position: relative;
+        left: 0;
+        transform: none;
+        bottom: auto;
+        margin: 40px 0 0;
+        text-align: center;
+        z-index: 5;
+    }
+
+    header .intro-cta a {
+        display: inline-block;
     }
 }
 
