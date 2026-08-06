@@ -1,0 +1,24 @@
+{% assign game = include.game %}
+<article class="game-card">
+    <a class="game-card-media" href="{{ '/press-kit/' | append: game.name | append: '/' | prepend: site.baseurl }}">
+        {% assign media = game.gameplay_gif | default: game.thumbnail %}
+        <img src="{{ media | prepend: site.baseurl }}" alt="{{ game.title }} gameplay" loading="lazy">
+        {% if game.category %}<span class="game-card-category">{{ game.category }}</span>{% endif %}
+    </a>
+    <div class="game-card-body">
+        <h3 class="game-card-title">
+            {% if game.icon %}<img class="game-card-icon" src="{{ game.icon | prepend: site.baseurl }}" alt="" width="32" height="32" loading="lazy">{% endif %}
+            {{ game.title }}
+        </h3>
+        <p class="game-card-desc">{{ game.description }}</p>
+        {% if game.platforms %}
+        <ul class="game-card-tags">
+            {% for platform in game.platforms %}<li>{{ platform }}</li>{% endfor %}
+            {% if game.date %}<li class="tag-year">{{ game.date | date: '%Y' }}</li>{% endif %}
+        </ul>
+        {% endif %}
+        <div class="game-card-actions">
+            <a class="btn btn-store" href="{{ '/press-kit/' | append: game.name | append: '/' | prepend: site.baseurl }}">Press Kit</a>
+        </div>
+    </div>
+</article>

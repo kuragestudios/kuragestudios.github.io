@@ -1,0 +1,816 @@
+---
+# GitHub Pages compiles this file to /assets/css/style.css
+---
+
+// ============================================================
+// Kurage Studios — retro arcade dark theme
+// ============================================================
+
+$bg:            #0a0a14;
+$bg-alt:        #10101f;
+$surface:       #161628;
+$border:        #26264a;
+$text:          #d8d8ef;
+$text-dim:      #8f8fb3;
+$neon-cyan:     #00f0ff;
+$neon-purple:   #b44cff;
+$neon-pink:     #ff4cd8;
+
+$font-pixel: 'Press Start 2P', monospace;
+$font-pixel-display: 'Silkscreen', 'Press Start 2P', monospace;
+$font-body:  'Rubik', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+// ---- Reset & base ------------------------------------------
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; }
+
+body {
+    background: $bg;
+    color: $text;
+    font-family: $font-body;
+    font-size: 1rem;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+}
+
+img { max-width: 100%; display: block; }
+
+a { color: $neon-cyan; text-decoration: none; }
+a:hover { text-decoration: none; }
+
+.container {
+    width: min(1100px, 100% - 3rem);
+    margin-inline: auto;
+}
+
+// ---- Buttons -----------------------------------------------
+
+.btn {
+    display: inline-block;
+    font-family: $font-pixel;
+    font-size: 0.65rem;
+    padding: 0.9em 1.4em;
+    border: 2px solid $neon-cyan;
+    border-radius: 4px;
+    color: $neon-cyan;
+    background: transparent;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    transition: box-shadow 0.2s ease, transform 0.2s ease, background 0.2s ease, color 0.2s ease;
+
+    &:hover {
+        background: rgba($neon-cyan, 0.12);
+        box-shadow: 0 0 12px rgba($neon-cyan, 0.6), inset 0 0 8px rgba($neon-cyan, 0.2);
+        transform: translateY(-2px);
+    }
+}
+
+.btn-primary {
+    background: $neon-cyan;
+    color: $bg;
+
+    &:hover {
+        background: lighten($neon-cyan, 8%);
+        color: $bg;
+    }
+}
+
+.btn-ghost {
+    border-color: $neon-purple;
+    color: $neon-purple;
+
+    &:hover {
+        background: rgba($neon-purple, 0.12);
+        box-shadow: 0 0 12px rgba($neon-purple, 0.6), inset 0 0 8px rgba($neon-purple, 0.2);
+    }
+}
+
+.btn-store {
+    font-size: 0.55rem;
+    padding: 0.8em 1.1em;
+}
+
+// ---- Navigation --------------------------------------------
+
+.site-nav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: rgba($bg, 0.85);
+    backdrop-filter: blur(8px);
+
+    // glowing neon edge along the bottom of the bar
+    &::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 2px;
+        background: linear-gradient(90deg, transparent 5%, rgba($neon-cyan, 0.7) 35%, rgba($neon-pink, 0.7) 65%, transparent 95%);
+        box-shadow:
+            0 0 12px rgba($neon-cyan, 0.8),
+            0 0 30px rgba($neon-purple, 0.5);
+        animation: horizon-pulse 4s ease-in-out infinite;
+        pointer-events: none;
+    }
+}
+
+@keyframes horizon-pulse {
+    0%, 100% { opacity: 0.7; }
+    50%      { opacity: 1; }
+}
+
+.nav-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 0.85rem;
+}
+
+.nav-brand {
+    display: inline-flex;
+    align-items: center;
+    font-family: $font-pixel-display;
+    font-weight: 700;
+    font-size: 1.05rem;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.neon-shimmer {
+    display: inline-block;
+    background: linear-gradient(90deg, $neon-cyan 0%, $neon-purple 25%, #8ff8ff 50%, $neon-pink 75%, $neon-cyan 100%);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    animation: neon-shimmer 4s linear infinite;
+    filter: drop-shadow(0 0 6px rgba($neon-cyan, 0.35));
+}
+
+@keyframes neon-shimmer {
+    to { background-position: -200% center; }
+}
+
+.nav-links {
+    display: flex;
+    gap: 1.75rem;
+    list-style: none;
+
+    a {
+        font-family: $font-pixel;
+        font-size: 0.6rem;
+        color: $text-dim;
+        transition: color 0.2s ease, text-shadow 0.2s ease;
+
+        &:hover {
+            color: $neon-cyan;
+            text-shadow: 0 0 8px rgba($neon-cyan, 0.8);
+        }
+    }
+}
+
+// ---- Hero --------------------------------------------------
+
+.hero {
+    position: relative;
+    min-height: 88vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+    background:
+        radial-gradient(ellipse 80% 55% at 50% -10%, rgba($neon-purple, 0.22), transparent),
+        radial-gradient(ellipse 60% 45% at 50% 110%, rgba($neon-cyan, 0.14), transparent),
+        $bg;
+}
+
+// perspective grid floor, pure CSS — lines scroll toward the viewer.
+// Static layers (glow + vertical lines) live on the container; the moving
+// horizontal lines live on ::before and are animated with a GPU transform
+// (not background-position) to avoid whole-pixel stepping, and the mask
+// fades the far field out before line spacing collapses below a pixel.
+.hero-grid-bg {
+    position: absolute;
+    inset: auto 0 0 0;
+    height: 45%;
+    background:
+        linear-gradient(transparent 0%, rgba($neon-purple, 0.08) 100%),
+        repeating-linear-gradient(90deg, rgba($neon-cyan, 0.18) 0 1px, transparent 1px 80px);
+    transform: perspective(300px) rotateX(55deg);
+    transform-origin: bottom;
+    overflow: hidden;
+    mask-image: linear-gradient(transparent 12%, rgba(0, 0, 0, 0.5) 45%, black 70%);
+    -webkit-mask-image: linear-gradient(transparent 12%, rgba(0, 0, 0, 0.5) 45%, black 70%);
+    pointer-events: none;
+
+    &::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: -80px;
+        bottom: 0;
+        background: repeating-linear-gradient(0deg, rgba($neon-cyan, 0.22) 0 2px, transparent 2px 40px);
+        animation: grid-fly 1.6s linear infinite;
+        will-change: transform;
+    }
+}
+
+// one 40px period per cycle → seamless loop
+@keyframes grid-fly {
+    from { transform: translateY(0); }
+    to   { transform: translateY(40px); }
+}
+
+
+.hero-inner {
+    position: relative;
+    z-index: 1;
+    padding-block: 5rem;
+}
+
+.hero-title {
+    font-family: $font-pixel-display;
+    font-weight: 700;
+    font-size: clamp(2.2rem, 7vw, 4.2rem);
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+    margin-bottom: 1.25rem;
+    display: inline-block;
+    background: linear-gradient(100deg, $neon-cyan 0%, #eafcff 20%, $neon-purple 45%, $neon-pink 65%, #8ff8ff 85%, $neon-cyan 100%);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    animation: neon-shimmer 7s linear infinite;
+    filter:
+        drop-shadow(0 0 8px rgba($neon-cyan, 0.5))
+        drop-shadow(0 0 30px rgba($neon-purple, 0.4));
+    transition: filter 0.35s ease;
+}
+
+.hero-tagline {
+    color: $text-dim;
+    font-size: 1.15rem;
+    max-width: 34rem;
+    margin: 0 auto 2.5rem;
+}
+
+.hero-actions {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.hero-scroll {
+    position: absolute;
+    bottom: 1.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    color: $neon-cyan;
+    animation: bob 1.6s ease-in-out infinite;
+}
+
+@keyframes bob {
+    0%, 100% { transform: translate(-50%, 0); }
+    50%      { transform: translate(-50%, 8px); }
+}
+
+// hover: glow intensifies and a soft chromatic split appears; the filter
+// transition composes with the running shimmer instead of restarting it
+.glitch:hover {
+    filter:
+        drop-shadow(0 0 10px rgba($neon-cyan, 0.7))
+        drop-shadow(0 0 40px rgba($neon-purple, 0.6))
+        drop-shadow(3px 0 0 rgba($neon-pink, 0.35))
+        drop-shadow(-3px 0 0 rgba($neon-cyan, 0.35));
+}
+
+// ---- Sections ----------------------------------------------
+
+.section {
+    padding-block: 5.5rem;
+}
+
+.section-alt {
+    background: $bg-alt;
+    border-block: 1px solid $border;
+}
+
+.section-title {
+    font-family: $font-pixel;
+    font-size: clamp(1rem, 3vw, 1.5rem);
+    color: #fff;
+    margin-bottom: 0.75rem;
+
+    .accent {
+        color: $neon-cyan;
+        text-shadow: 0 0 10px rgba($neon-cyan, 0.8);
+    }
+}
+
+.section-subtitle {
+    color: $text-dim;
+    margin-bottom: 3rem;
+}
+
+// ---- Games grid --------------------------------------------
+
+.games-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.game-card {
+    display: flex;
+    flex-direction: column;
+    background: $surface;
+    border: 1px solid $border;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+
+    &:hover {
+        transform: translateY(-6px);
+        border-color: rgba($neon-cyan, 0.6);
+        box-shadow:
+            0 0 0 1px rgba($neon-cyan, 0.4),
+            0 0 24px rgba($neon-cyan, 0.25),
+            0 16px 40px rgba(0, 0, 0, 0.5);
+    }
+}
+
+.game-card-media {
+    position: relative;
+    display: block;
+    aspect-ratio: 16 / 10;
+    overflow: hidden;
+    background: $bg;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.35s ease;
+    }
+}
+
+.game-card:hover .game-card-media img {
+    transform: scale(1.05);
+}
+
+.game-card-category {
+    position: absolute;
+    top: 0.75rem;
+    right: 0.75rem;
+    font-family: $font-pixel;
+    font-size: 0.5rem;
+    padding: 0.5em 0.9em;
+    color: $neon-purple;
+    background: rgba($bg, 0.85);
+    border: 1px solid $neon-purple;
+    border-radius: 3px;
+    box-shadow: 0 0 8px rgba($neon-purple, 0.5);
+    text-transform: uppercase;
+}
+
+.game-card-body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 0.85rem;
+    padding: 1.4rem;
+}
+
+.game-card-title {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    font-family: $font-pixel;
+    font-size: 0.8rem;
+    color: #fff;
+}
+
+.game-card-icon {
+    border-radius: 6px;
+    image-rendering: auto;
+}
+
+.game-card-desc {
+    color: $text-dim;
+    font-size: 0.95rem;
+    flex: 1;
+}
+
+.game-card-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    list-style: none;
+
+    li {
+        font-size: 0.7rem;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        padding: 0.25em 0.8em;
+        color: $neon-cyan;
+        border: 1px solid rgba($neon-cyan, 0.4);
+        border-radius: 999px;
+    }
+
+    .tag-price {
+        color: $neon-pink;
+        border-color: rgba($neon-pink, 0.4);
+    }
+}
+
+.game-card-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    margin-top: 0.25rem;
+}
+
+// ---- Studio bio --------------------------------------------
+
+.bio {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 3rem;
+    align-items: start;
+
+    @media (max-width: 760px) {
+        grid-template-columns: 1fr;
+    }
+}
+
+.bio-text {
+    color: $text-dim;
+    font-size: 1.05rem;
+
+    p + p { margin-top: 1rem; }
+
+    strong { color: $text; }
+}
+
+.bio-team {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+.team-card {
+    text-align: center;
+    background: $surface;
+    border: 1px solid $border;
+    border-radius: 10px;
+    padding: 1.5rem 1rem;
+    transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+
+    &:hover {
+        transform: translateY(-4px);
+        border-color: rgba($neon-purple, 0.6);
+        box-shadow: 0 0 18px rgba($neon-purple, 0.25);
+    }
+
+    img {
+        width: 88px;
+        height: 88px;
+        object-fit: cover;
+        border-radius: 50%;
+        margin: 0 auto 1rem;
+        border: 2px solid $neon-purple;
+        box-shadow: 0 0 12px rgba($neon-purple, 0.4);
+    }
+
+    h3 {
+        font-family: $font-pixel;
+        font-size: 0.65rem;
+        color: #fff;
+        margin-bottom: 0.5rem;
+    }
+
+    p {
+        color: $text-dim;
+        font-size: 0.85rem;
+    }
+}
+
+// ---- Links / press -----------------------------------------
+
+.links-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 1rem;
+}
+
+.link-card {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    padding: 1.1rem 1.3rem;
+    background: $surface;
+    border: 1px solid $border;
+    border-radius: 8px;
+    color: $text;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+
+    img { border-radius: 6px; }
+
+    .link-card-label {
+        font-family: $font-pixel;
+        font-size: 0.6rem;
+        flex: 1;
+    }
+
+    .link-card-arrow {
+        color: $neon-cyan;
+        transition: transform 0.2s ease;
+    }
+
+    &:hover {
+        transform: translateY(-3px);
+        border-color: rgba($neon-cyan, 0.6);
+        box-shadow: 0 0 16px rgba($neon-cyan, 0.2);
+
+        .link-card-arrow { transform: translateX(4px); }
+    }
+}
+
+.links-presskit-title {
+    font-family: $font-pixel;
+    font-size: 0.8rem;
+    color: $text-dim;
+    margin: 3rem 0 1.25rem;
+}
+
+// ---- Press kit ---------------------------------------------
+
+.presskit {
+    padding-bottom: 5rem;
+}
+
+.presskit-hero {
+    text-align: center;
+    padding-block: 3.5rem 1rem;
+    background:
+        radial-gradient(ellipse 70% 60% at 50% -10%, rgba($neon-purple, 0.18), transparent),
+        $bg;
+}
+
+.presskit-banner {
+    margin: 0 auto 2rem;
+    border-radius: 10px;
+    border: 1px solid $border;
+    box-shadow: 0 0 30px rgba($neon-cyan, 0.15), 0 20px 50px rgba(0, 0, 0, 0.5);
+}
+
+.presskit-title {
+    font-family: $font-pixel-display;
+    font-weight: 700;
+    font-size: clamp(1.8rem, 5vw, 3rem);
+    color: #fff;
+    text-shadow: 0 0 6px rgba($neon-cyan, 0.9), 0 0 24px rgba($neon-cyan, 0.5);
+    margin-bottom: 1rem;
+}
+
+.presskit-tagline {
+    color: $text-dim;
+    max-width: 40rem;
+    margin: 0 auto 1.75rem;
+}
+
+.presskit-notice {
+    display: inline-block;
+    font-family: $font-pixel;
+    font-size: 0.55rem;
+    line-height: 1.8;
+    color: $neon-pink;
+    border: 1px solid rgba($neon-pink, 0.5);
+    border-radius: 6px;
+    background: rgba($neon-pink, 0.08);
+    box-shadow: 0 0 12px rgba($neon-pink, 0.2);
+    padding: 0.9em 1.4em;
+    max-width: 40rem;
+}
+
+.presskit-section {
+    padding-block: 3rem 0;
+
+    p { color: $text-dim; max-width: 46rem; }
+}
+
+.presskit-subheading {
+    font-family: $font-pixel;
+    font-size: 0.75rem;
+    color: $neon-purple;
+    margin: 2rem 0 0.9rem;
+}
+
+.presskit-list {
+    color: $text-dim;
+    list-style: none;
+
+    li {
+        padding-left: 1.4rem;
+        position: relative;
+        margin-bottom: 0.4rem;
+
+        &::before {
+            content: '▸';
+            position: absolute;
+            left: 0;
+            color: $neon-cyan;
+        }
+    }
+}
+
+.presskit-info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.presskit-info-block {
+    background: $surface;
+    border: 1px solid $border;
+    border-radius: 10px;
+    padding: 1.5rem;
+
+    h3 {
+        font-family: $font-pixel;
+        font-size: 0.7rem;
+        color: $neon-cyan;
+        margin-bottom: 1.25rem;
+    }
+
+    dl {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        gap: 0.5rem 1.5rem;
+    }
+
+    dt {
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        color: $text-dim;
+    }
+
+    dd { font-size: 0.9rem; }
+}
+
+.presskit-video {
+    position: relative;
+    aspect-ratio: 16 / 9;
+    max-width: 46rem;
+    margin-top: 1.5rem;
+    border: 1px solid $border;
+    border-radius: 10px;
+    overflow: hidden;
+
+    iframe {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.presskit-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 1.25rem;
+    margin-top: 1.5rem;
+
+    a {
+        display: block;
+        border: 1px solid $border;
+        border-radius: 10px;
+        overflow: hidden;
+        background: $surface;
+        transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+
+        &:hover {
+            transform: translateY(-4px);
+            border-color: rgba($neon-cyan, 0.6);
+            box-shadow: 0 0 18px rgba($neon-cyan, 0.25);
+        }
+    }
+
+    img { width: 100%; }
+}
+
+.presskit-gallery-brand {
+    a { padding: 1.5rem; }
+    img { max-height: 220px; object-fit: contain; margin-inline: auto; }
+}
+
+.presskit-quotes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.presskit-quote {
+    background: $surface;
+    border: 1px solid $border;
+    border-left: 3px solid $neon-purple;
+    border-radius: 10px;
+    padding: 1.5rem;
+
+    p { color: $text; font-style: italic; margin-bottom: 0.75rem; }
+    cite { color: $text-dim; font-style: normal; font-size: 0.85rem; }
+}
+
+.presskit-versions {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 0.6rem 2rem;
+    margin-top: 1.5rem;
+    max-width: 46rem;
+
+    dt {
+        font-family: $font-pixel;
+        font-size: 0.65rem;
+        color: $neon-cyan;
+        padding-top: 0.2em;
+    }
+
+    dd { color: $text-dim; }
+}
+
+.presskit-back {
+    margin-top: 4rem;
+    text-align: center;
+}
+
+// ---- Footer ------------------------------------------------
+
+.site-footer {
+    border-top: 1px solid $border;
+    background: $bg-alt;
+}
+
+.footer-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding-block: 2rem;
+}
+
+.footer-copy {
+    color: $text-dim;
+    font-size: 0.85rem;
+}
+
+.footer-socials {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+
+    a {
+        font-family: $font-pixel;
+        font-size: 0.55rem;
+        color: $text-dim;
+
+        &:hover {
+            color: $neon-cyan;
+            text-shadow: 0 0 8px rgba($neon-cyan, 0.8);
+        }
+    }
+}
+
+// ---- Small screens -----------------------------------------
+
+@media (max-width: 600px) {
+    .nav-links { gap: 1rem; }
+    .nav-brand { font-size: 0.85rem; }
+    .section { padding-block: 3.5rem; }
+    .bio-team { grid-template-columns: repeat(2, 1fr); }
+    .footer-inner { justify-content: center; text-align: center; }
+}
+
+// ---- Reduced motion ----------------------------------------
+
+@media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}

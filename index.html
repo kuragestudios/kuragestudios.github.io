@@ -1,20 +1,13 @@
 ---
-layout: default
+layout: home
+title: Kurage Studios
+description: Indie game studio based in Japan — crafting retro arcade and puzzle games for iOS and Android.
+hero_title: Kurage Studios
+hero_tagline: An indie game studio in Japan — crafting pixel-perfect arcade and puzzle games since 2013.
 ---
 
-<div class="home">
+<p><strong>Kurage Studios</strong> is a tiny independent game studio based in Japan. Since 2013 we have been crafting small, polished games for iOS and Android — from hand-crafted pixel-art arcade throwbacks to brain-bending 3D and AR puzzles.</p>
 
-  <h1>Posts</h1>
+<p>We love the golden age of arcade games: chiptunes, CRT scanlines, and gameplay that is easy to pick up but difficult to master. Every title is designed, coded, and shipped with love by a very small team (and one very supportive cat).</p>
 
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+<p>Want to get in touch? Write to us at <a href="mailto:{{ site.email }}">{{ site.email }}</a> — we read everything.</p>

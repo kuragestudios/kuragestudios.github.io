@@ -1,34 +1,137 @@
 ---
-sections:
-  - name: info
-    title: Info
-  - name: overview
-    title: Overview
-  - name: previews
-    title: Previews
-  - name: screenshots
-    title: Screenshots
-  - name: logo-icon
-    title: Logo & Icon
-  - name: version-history
-    title: Version History
+layout: default
 ---
-<!DOCTYPE html>
-<html>
 
-    {% include head.html %}
+{% assign game = site.games[page.game-id] %}
 
-    <body id="page-top" class="index">
-    {% include navigation.html sections=layout.sections %}
+<article class="presskit">
+
+    <header class="presskit-hero">
+        <div class="container">
+            <img class="presskit-banner" src="{{ game.banner | prepend: site.baseurl }}" alt="{{ game.title }} banner">
+            <h1 class="presskit-title">{{ game.title }}</h1>
+            <p class="presskit-tagline">{{ game.description }}</p>
+            <p class="presskit-notice">⚠ This game is no longer available for download. This press kit is kept as a historical archive.</p>
+        </div>
+    </header>
 
     <div class="container">
-        {% assign game = site.games[page.game-id] %}
-        {% include press-kit.html game=game %}
+
+        <!-- Info -->
+        <section id="info" class="presskit-section">
+            <h2 class="section-title"><span class="accent">▮</span> Info</h2>
+            <div class="presskit-info-grid">
+                <div class="presskit-info-block">
+                    <h3>Basic Info</h3>
+                    <dl>
+                        <dt>Category</dt><dd>{{ game.category }}</dd>
+                        <dt>Developer</dt><dd>{{ game.developer }}</dd>
+                        <dt>Publisher</dt><dd>{{ game.publisher }}</dd>
+                        <dt>Release</dt><dd>{{ game.date | date: '%B %Y' }}</dd>
+                        <dt>Platforms</dt><dd>{{ game.platforms | join: ', ' }}</dd>
+                    </dl>
+                </div>
+                <div class="presskit-info-block">
+                    <h3>Links &amp; Press Contact</h3>
+                    <dl>
+                        <dt>Website</dt><dd><a href="{{ site.url }}">{{ site.title }}</a></dd>
+                        {% for social in site.socials %}
+                        <dt>{{ social.title }}</dt><dd><a href="{{ social.url }}" target="_blank" rel="noopener">{{ site.title }}</a></dd>
+                        {% endfor %}
+                        <dt>Contact</dt><dd><a href="mailto:{{ site.email }}">{{ site.email }}</a></dd>
+                    </dl>
+                </div>
+            </div>
+        </section>
+
+        <!-- Overview -->
+        <section id="overview" class="presskit-section">
+            <h2 class="section-title"><span class="accent">▮</span> Overview</h2>
+            {% if game.story %}
+            <h3 class="presskit-subheading">Story</h3>
+            <p>{{ game.story }}</p>
+            {% endif %}
+            {% if game.features %}
+            <h3 class="presskit-subheading">Features</h3>
+            <ul class="presskit-list">
+                {% for feature in game.features %}<li>{{ feature }}</li>{% endfor %}
+            </ul>
+            {% endif %}
+            {% if game.tips %}
+            <h3 class="presskit-subheading">How to Play</h3>
+            <ul class="presskit-list">
+                {% for tip in game.tips %}<li>{{ tip }}</li>{% endfor %}
+            </ul>
+            {% endif %}
+        </section>
+
+        <!-- Previews -->
+        {% if game.previews %}
+        <section id="previews" class="presskit-section">
+            <h2 class="section-title"><span class="accent">▮</span> Previews</h2>
+            {% for video in game.previews %}
+            <div class="presskit-video">
+                <iframe src="https://www.youtube.com/embed/{{ video }}?rel=0" title="{{ game.title }} preview" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen loading="lazy"></iframe>
+            </div>
+            {% endfor %}
+        </section>
+        {% endif %}
+
+        <!-- Screenshots -->
+        {% if game.screenshots %}
+        <section id="screenshots" class="presskit-section">
+            <h2 class="section-title"><span class="accent">▮</span> Screenshots</h2>
+            <div class="presskit-gallery">
+                {% for image in game.screenshots %}
+                <a href="{{ image.url | prepend: site.baseurl }}" target="_blank" rel="noopener">
+                    <img src="{{ image.url | prepend: site.baseurl }}" alt="{{ image.alt }}" loading="lazy">
+                </a>
+                {% endfor %}
+            </div>
+        </section>
+        {% endif %}
+
+        <!-- Logo & Icon -->
+        <section id="logo-icon" class="presskit-section">
+            <h2 class="section-title"><span class="accent">▮</span> Logo &amp; Icon</h2>
+            <div class="presskit-gallery presskit-gallery-brand">
+                <a href="{{ game.logo | prepend: site.baseurl }}" target="_blank" rel="noopener">
+                    <img src="{{ game.logo | prepend: site.baseurl }}" alt="{{ game.title }} logo" loading="lazy">
+                </a>
+                <a href="{{ game.icon | prepend: site.baseurl }}" target="_blank" rel="noopener">
+                    <img src="{{ game.icon | prepend: site.baseurl }}" alt="{{ game.title }} icon" loading="lazy">
+                </a>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        {% if game.testimonials and game.testimonials != empty %}
+        <section id="testimonials" class="presskit-section">
+            <h2 class="section-title"><span class="accent">▮</span> What Players Said</h2>
+            <div class="presskit-quotes">
+                {% for testimonial in game.testimonials %}
+                <blockquote class="presskit-quote">
+                    <p>“{{ testimonial.message }}”</p>
+                    <cite>— {{ testimonial.author }}</cite>
+                </blockquote>
+                {% endfor %}
+            </div>
+        </section>
+        {% endif %}
+
+        <!-- Version History -->
+        {% if game.versions %}
+        <section id="version-history" class="presskit-section">
+            <h2 class="section-title"><span class="accent">▮</span> Version History</h2>
+            <dl class="presskit-versions">
+                {% for version in game.versions reversed %}
+                <dt>v{{ version.number }}</dt><dd>{{ version.description }}</dd>
+                {% endfor %}
+            </dl>
+        </section>
+        {% endif %}
+
+        <p class="presskit-back"><a class="btn btn-ghost" href="{{ '/' | prepend: site.baseurl }}#games">◂ Back to all games</a></p>
+
     </div>
-
-    {% include footer.html %}
-    {% include js.html %}
-    {% include image-modal.html %}
-
-    </body>
-</html>
+</article>

@@ -2,7 +2,7 @@
 order: 700
 name: about
 title: About
-subtitle: We are based in Tokyo, Japan.
+subtitle: We are based in Japan.
 ---
 
 <div class="row">

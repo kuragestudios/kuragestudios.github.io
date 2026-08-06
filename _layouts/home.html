@@ -1,0 +1,81 @@
+---
+layout: default
+---
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+    <div class="hero-grid-bg" aria-hidden="true"></div>
+    <div class="container hero-inner">
+        <h1 class="hero-title glitch" data-text="{{ page.hero_title | default: site.title }}">{{ page.hero_title | default: site.title }}</h1>
+        <p class="hero-tagline">{{ page.hero_tagline | default: site.description }}</p>
+        <div class="hero-actions">
+            <a class="btn btn-primary" href="#games">Insert Coin</a>
+        </div>
+    </div>
+    <a class="hero-scroll" href="#games" aria-label="Scroll to games">▼</a>
+</section>
+
+<!-- ============ GAMES GRID ============ -->
+<section id="games" class="section">
+    <div class="container">
+        <h2 class="section-title"><span class="accent">▮</span> Our Games</h2>
+        <p class="section-subtitle">{{ site.games | size }} titles crafted with pixels and love. Currently offline while we work on re-releases — explore the press kits below.</p>
+        <div class="games-grid">
+            {% assign sorted_games = site.games | sort: 'uid' | reverse %}
+            {% for game in sorted_games %}
+                {% include game-card.html game=game %}
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<!-- ============ STUDIO BIO ============ -->
+<section id="about" class="section section-alt">
+    <div class="container">
+        <h2 class="section-title"><span class="accent">▮</span> The Studio</h2>
+        <div class="bio">
+            <div class="bio-text">
+                {{ content }}
+            </div>
+            <div class="bio-team">
+                {% for member in site.members %}
+                <div class="team-card">
+                    <img src="{{ '/images/members/' | append: member.image | prepend: site.baseurl }}" alt="{{ member.full-name }}">
+                    <h3>{{ member.full-name }}</h3>
+                    <p>{{ member.position }}</p>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ============ LINKS / PRESSKIT ============ -->
+<section id="links" class="section">
+    <div class="container">
+        <h2 class="section-title"><span class="accent">▮</span> Links &amp; Press</h2>
+        <div class="links-grid">
+            {% for social in site.socials %}
+            <a class="link-card" href="{{ social.url }}" target="_blank" rel="noopener">
+                <span class="link-card-label">{{ social.title }}</span>
+                <span class="link-card-arrow">→</span>
+            </a>
+            {% endfor %}
+            <a class="link-card" href="mailto:{{ site.email }}">
+                <span class="link-card-label">Contact</span>
+                <span class="link-card-arrow">→</span>
+            </a>
+        </div>
+        <h3 class="links-presskit-title">Press Kits</h3>
+        <div class="links-grid">
+            {% assign sorted_games = site.games | sort: 'uid' | reverse %}
+            {% for game in sorted_games %}
+            <a class="link-card link-card-press" href="{{ '/press-kit/' | append: game.name | append: '/' | prepend: site.baseurl }}">
+                <img src="{{ game.icon | prepend: site.baseurl }}" alt="" width="28" height="28">
+                <span class="link-card-label">{{ game.title }}</span>
+                <span class="link-card-arrow">→</span>
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+</section>
