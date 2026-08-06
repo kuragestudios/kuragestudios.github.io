@@ -6,7 +6,7 @@
     <title>{% if page.title %}{{ page.title }} — {{ site.title }}{% else %}{{ site.title }} — {{ site.description }}{% endif %}</title>
     <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-    <link rel="icon" type="image/png" href="{{ '/images/logo-32.png' | prepend: site.baseurl }}">
+    <link rel="icon" href="{{ '/favicon.ico' | prepend: site.baseurl }}">
 
     <!-- Open Graph / Twitter -->
     <meta property="og:type" content="website">
