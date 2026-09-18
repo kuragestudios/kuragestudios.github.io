@@ -18,6 +18,8 @@
         </ul>
         {% endif %}
         <div class="game-card-actions">
+            {% if game.play_url %}<a class="btn btn-store btn-primary" href="{{ game.play_url }}" target="_blank" rel="noopener">Play</a>{% endif %}
+            {% if game.site_url %}<a class="btn btn-store" href="{{ game.site_url }}" target="_blank" rel="noopener">Game Page</a>{% endif %}
             <a class="btn btn-store" href="{{ '/press-kit/' | append: game.name | append: '/' | prepend: site.baseurl }}">Press Kit</a>
         </div>
     </div>

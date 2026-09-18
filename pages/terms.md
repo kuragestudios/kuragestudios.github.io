@@ -12,7 +12,7 @@ Kurage Studios propose pour les jeu suivants:
 - Paulo
 - Kid Odysseus
 - Pipe Maze 3D
-- Just Maths Training
+- Just Maths
 - Pipe Maze AR
 - Tetropaint
 - Block Hole

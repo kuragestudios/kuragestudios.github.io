@@ -19,7 +19,7 @@ layout: default
 <section id="games" class="section">
     <div class="container">
         <h2 class="section-title"><span class="accent">▮</span> Our Games</h2>
-        <p class="section-subtitle">{{ site.games | size }} titles crafted with pixels and love. Currently offline while we work on re-releases — explore the press kits below.</p>
+        <p class="section-subtitle">{{ site.games | size }} titles crafted with pixels and love. Re-releases are rolling out — play the ones marked <em>Play</em> right in your browser, and explore the press kits below.</p>
         <div class="games-grid">
             {% assign sorted_games = site.games | sort: 'uid' | reverse %}
             {% for game in sorted_games %}

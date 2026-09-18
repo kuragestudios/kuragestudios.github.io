@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="173" viewBox="0 0 512 173" role="img" aria-label="Play in your browser">
+  <rect x="4" y="4" width="504" height="165" rx="18" fill="#0b0d17" stroke="#21e6f5" stroke-width="6"/>
+  <polygon points="70,48 70,125 138,86" fill="#21e6f5"/>
+  <text x="175" y="76" font-family="Avenir Next, Segoe UI, Helvetica, Arial, sans-serif" font-size="26" fill="#8b90a8" letter-spacing="2">FREE · NO INSTALL</text>
+  <text x="175" y="124" font-family="Avenir Next, Segoe UI, Helvetica, Arial, sans-serif" font-size="44" font-weight="700" fill="#ffffff">Play in browser</text>
+</svg>

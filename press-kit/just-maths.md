@@ -1,5 +1,5 @@
 ---
 layout: press-kit
-title: Just Maths Training Press Kit
+title: Just Maths Press Kit
 game-id: 4
 ---

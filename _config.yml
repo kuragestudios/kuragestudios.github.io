@@ -29,6 +29,12 @@ stores:
   google-play:
     title: Google Play
     image: /images/googleplay_get_it.jpg
+  itch-io:
+    title: itch.io
+    image: /images/itchio_get_it.svg
+  web:
+    title: Play in browser
+    image: /images/web_play_now.svg
 
 # Additional collections
 collections:

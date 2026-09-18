@@ -11,7 +11,14 @@ layout: default
             <img class="presskit-banner" src="{{ game.banner | prepend: site.baseurl }}" alt="{{ game.title }} banner">
             <h1 class="presskit-title">{{ game.title }}</h1>
             <p class="presskit-tagline">{{ game.description }}</p>
+            {% if game.play_url %}
+            <p class="presskit-notice"><a href="{{ game.play_url }}" target="_blank" rel="noopener">▶ Play it free in your browser</a></p>
+            {% if game.site_url %}
+            <p class="presskit-notice"><a href="{{ game.site_url }}" target="_blank" rel="noopener">◆ Visit the official {{ game.title }} page</a></p>
+            {% endif %}
+            {% else %}
             <p class="presskit-notice">⚠ This game is no longer available for download. This press kit is kept as a historical archive.</p>
+            {% endif %}
         </div>
     </header>
 
@@ -34,6 +41,9 @@ layout: default
                 <div class="presskit-info-block">
                     <h3>Links &amp; Press Contact</h3>
                     <dl>
+                        {% if game.site_url %}
+                        <dt>Game Page</dt><dd><a href="{{ game.site_url }}" target="_blank" rel="noopener">{{ game.site_url }}</a></dd>
+                        {% endif %}
                         <dt>Website</dt><dd><a href="{{ site.url }}">{{ site.title }}</a></dd>
                         {% for social in site.socials %}
                         <dt>{{ social.title }}</dt><dd><a href="{{ social.url }}" target="_blank" rel="noopener">{{ site.title }}</a></dd>

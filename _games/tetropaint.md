@@ -11,26 +11,39 @@ story: Rediscover the world-famous game you know and love, with an innovative wa
 features:
   - innovative gameplay using touch gestures
   - unlimited levels
+  - classic and zen modes
   - multiplayer over local Wi-Fi
   - up to 4 players simultaneously
+  - plays in portrait or landscape
 tips:
-  - touch to draw a tetromino
+  - touch (or click and drag) to draw a tetromino
   - make a line to destroy tetrominos
   - don’t let tetrominos reach the bottom of the screen
 platforms:
+  - Web
+  - macOS
+  - Windows
   - iOS
   - Android
+play_url: https://kuragestudios.github.io/tetropaint/play/
 stores:
+  - name: web
+    url: https://kuragestudios.github.io/tetropaint/play/
+  - name: itch-io
+    url: https://kuragestudios.itch.io/tetropaint
   - name: app-store
     url: https://itunes.apple.com/us/app/tetropaint/id1458252214
   - name: google-play
     url: https://play.google.com/store/apps/details?id=com.studiokurage.tetromino
-price: Free
+price: Free in the browser, paid Mac / Windows downloads on itch.io
 socials:
   - twitter
   - facebook
 tags:
   - indiegame
+  - webgame
+  - mac
+  - windows
   - iphone
   - ipad
   - android
@@ -62,4 +75,6 @@ testimonials:
 versions:
   - number: 1.0
     description: Initial release
+  - number: 1.1
+    description: Web, macOS and Windows release. Portrait and landscape support, mouse controls.
 ---

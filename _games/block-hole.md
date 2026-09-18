@@ -9,28 +9,39 @@ developer: Aurelien Drouet
 publisher: Kurage Studios
 story: Rediscover the game of your childhood as you have never seen it before. Challenge yourself in a beautiful and colorful 3D game. Simple at first, the challenge becomes harder and harder as the number of blocks increases! How far will you go? Just swipe the screen to turn the blocks and don’t miss the holes!
 features:
-  - innovative 3D gameplay using touch gestures
+  - innovative 3D gameplay using touch gestures, keyboard or mouse
   - procedurally generated blocks
   - beautiful color palettes
   - 150 levels of difficulty
   - peaceful musics
 tips:
-  - swipe the bottom half of the screen to turn the blocks
-  - touch the top half of the screen to rotate the camera around
+  - swipe the bottom half of the screen (or use the arrow keys) to turn the blocks
+  - drag the top half of the screen (or the mouse) to rotate the camera around
 platforms:
+  - Web
+  - macOS
+  - Windows
   - iOS
   - Android
+play_url: https://kuragestudios.github.io/block-hole/play/
 stores:
+  - name: web
+    url: https://kuragestudios.github.io/block-hole/play/
+  - name: itch-io
+    url: https://kuragestudios.itch.io/block-hole
   - name: app-store
     url: https://itunes.apple.com/us/app/blockhole/id1514121863
   - name: google-play
     url: https://play.google.com/store/apps/details?id=com.studiokurage.blockhole
-price: $0.99
+price: Free in the browser, paid Mac / Windows downloads on itch.io
 socials:
   - twitter
   - facebook
 tags:
   - indiegame
+  - webgame
+  - mac
+  - windows
   - iphone
   - ipad
   - android
@@ -66,4 +77,6 @@ testimonials:
 versions:
   - number: 1.0
     description: Initial release
+  - number: 1.1
+    description: Web, Mac and Windows release, keyboard and mouse controls
 ---

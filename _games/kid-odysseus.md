@@ -9,34 +9,43 @@ developer: Aurelien Drouet
 publisher: Kurage Studios
 story: Once upon a time, a young boy was looking for adventure! Odysseus loves fantasy tales. He has special interest to the legend of crystal pearls. The day of his 8 years, the young boy undertakes a long journey to find the pearls. He shall run 8 magical mazes around the kingdom. Be careful young boy, the mazes are haunted by powerful monsters!
 features:
+  - 16 haunted mazes
   - 4 color graphics
   - 8-bit audio
   - 16 color palettes
   - crt screen emulation
+  - plays in portrait or landscape
 tips:
-  - swipe left or right to run
-  - swipe down to dash
+  - swipe or arrow keys left or right to run
+  - swipe or arrow key down to dash
   - gather pearls
   - avoid monsters
 platforms:
-  - iOS
+  - Web
+  - macOS
+  - Windows
   - Android
+play_url: https://kuragestudios.github.io/kid-odysseus/play/
 stores:
-  - name: app-store
-    url: https://itunes.apple.com/us/app/kid-odysseus/id1123300764
+  - name: web
+    url: https://kuragestudios.github.io/kid-odysseus/play/
+  - name: itch-io
+    url: https://kuragestudios.itch.io/kid-odysseus
   - name: google-play
     url: https://play.google.com/store/apps/details?id=com.studiokurage.kid
-price: Free
+price: Free in the browser, paid Mac / Windows downloads on itch.io
 socials:
   - twitter
   - facebook
 tags:
   - indiegame
-  - iphone
-  - ipad
+  - webgame
+  - mac
+  - windows
   - android
 banner: /images/kid-odysseus/banner.png
 thumbnail: /images/kid-odysseus/thumbnail.png
+gameplay_gif: /images/kid-odysseus/animation-04.gif
 logo: /images/kid-odysseus/logo.png
 icon: /images/kid-odysseus/icon.png
 images:
@@ -77,4 +86,6 @@ versions:
     description: Add 4 new maps.<br>Few fixes.
   - number: 1.2
     description: Add 4 new maps.
+  - number: 1.3
+    description: Web, macOS and Windows release. Portrait and landscape support, keyboard and gamepad controls.
 ---

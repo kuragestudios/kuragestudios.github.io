@@ -13,28 +13,36 @@ features:
   - awesome chiptunes
   - crt screen emulation
   - simple but challenging gameplay
+  - 9 costumes and a collection to complete
+  - no ads, no in-app purchase
 tips:
-  - tap left or right to move
+  - tap left or right to move (arrow keys, A / D or a gamepad on desktop)
   - avoid bricks
   - push blocks
   - open locks with keys
   - collect fruits and vegetables
 platforms:
-  - iOS
+  - Web
+  - macOS
+  - Windows
   - Android
+play_url: https://kuragestudios.github.io/paulo/play/
 stores:
-  - name: app-store
-    url: https://itunes.apple.com/us/app/paulo/id1078163408
+  - name: web
+    url: https://kuragestudios.github.io/paulo/play/
+  - name: itch-io
+    url: https://kuragestudios.itch.io/paulo
   - name: google-play
     url: https://play.google.com/store/apps/details?id=com.studiokurage.paulo
-price: Free
+price: Free in the browser, paid Mac / Windows downloads on itch.io
 socials:
   - twitter
   - facebook
 tags:
   - indiegame
-  - iphone
-  - ipad
+  - webgame
+  - mac
+  - windows
   - android
 banner: /images/paulo/banner.png
 thumbnail: /images/paulo/thumbnail.png
@@ -84,4 +92,6 @@ versions:
     description: Camera bug fix<br>Recover your best score from the leaderboard<br>Recover your collection from achievements
   - number: 1.6
     description: Add two new blocks.<br>Performance improved.<br>Menu improved.
+  - number: 1.7
+    description: Web, macOS and Windows release.<br>Keyboard and gamepad controls.<br>Ads and in-app purchase removed, every level is open.
 ---
