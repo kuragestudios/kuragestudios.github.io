@@ -13,34 +13,39 @@ features:
   - three-dimensional mazes
   - 10 shapes (flat, wall, shell, box, sphere, egg, pyramid, diamond, cross, axis)
   - 5 sizes (mini, small, regular, large and giant)
-  - over 20 graphic themes
+  - 27 graphic themes
+  - plays in portrait or landscape
+  - full keyboard, mouse and touch controls
 tips:
-  - tap to move along pipes
-  - double tap to change the camera viewpoint
-  - drag to turn the camera around
+  - tap to move along pipes, or use the arrow keys
+  - double tap, or press tab, to change the camera viewpoint
+  - drag to turn the camera around, shift and a direction on the keyboard
 platforms:
-  - iOS
+  - Web
+  - macOS
+  - Windows
   - Android
+site_url: https://kuragestudios.github.io/pipe-maze-3d/
+play_url: https://kuragestudios.github.io/pipe-maze-3d/play/
 stores:
-  - name: app-store
-    url: https://itunes.apple.com/us/app/pipe-maze-3d/id1257590197
+  - name: web
+    url: https://kuragestudios.github.io/pipe-maze-3d/play/
+  - name: itch-io
+    url: https://kuragestudios.itch.io/pipe-maze-3d
   - name: google-play
     url: https://play.google.com/store/apps/details?id=com.studiokurage.maze
-price: Free
+price: Free in the browser, paid Mac / Windows downloads on itch.io
 socials:
   - twitter
   - facebook
 tags:
   - indiegame
-  - iphone
-  - ipad
+  - webgame
   - android
 banner: /images/pipe-maze-3d/banner.png
 thumbnail: /images/pipe-maze-3d/thumbnail.png
 logo: /images/pipe-maze-3d/logo.png
 icon: /images/pipe-maze-3d/icon.png
-previews:
-  - GdV5L1pPlcc
 images:
   - url: /images/pipe-maze-3d/carousel-title.jpg
     alt: Title
@@ -75,4 +80,6 @@ versions:
     description: You can now reverse camera axis in the options menu. Minor bug fixes
   - number: 1.2
     description: Add new shapes
+  - number: 1.3
+    description: Web release. Rebuilt on Unity 6, four new Scenery themes, keyboard and mouse controls, portrait and landscape support.
 ---
