@@ -26,6 +26,7 @@ platforms:
   - macOS
   - Windows
   - Android
+site_url: https://kuragestudios.github.io/paulo/
 play_url: https://kuragestudios.github.io/paulo/play/
 stores:
   - name: web

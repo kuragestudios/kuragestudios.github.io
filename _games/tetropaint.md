@@ -25,10 +25,7 @@ platforms:
   - Windows
   - iOS
   - Android
-play_url: https://kuragestudios.github.io/tetropaint/play/
 stores:
-  - name: web
-    url: https://kuragestudios.github.io/tetropaint/play/
   - name: itch-io
     url: https://kuragestudios.itch.io/tetropaint
   - name: app-store

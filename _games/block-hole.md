@@ -23,10 +23,7 @@ platforms:
   - Windows
   - iOS
   - Android
-play_url: https://kuragestudios.github.io/block-hole/play/
 stores:
-  - name: web
-    url: https://kuragestudios.github.io/block-hole/play/
   - name: itch-io
     url: https://kuragestudios.itch.io/block-hole
   - name: app-store

@@ -25,10 +25,7 @@ platforms:
   - macOS
   - Windows
   - Android
-play_url: https://kuragestudios.github.io/kid-odysseus/play/
 stores:
-  - name: web
-    url: https://kuragestudios.github.io/kid-odysseus/play/
   - name: itch-io
     url: https://kuragestudios.itch.io/kid-odysseus
   - name: google-play
