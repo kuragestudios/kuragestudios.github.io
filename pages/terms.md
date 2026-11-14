@@ -3,7 +3,7 @@ layout: page
 title: Conditions d'utilisation
 ---
 
-Le texte suivant a été mis à jour pour la dernière fois le 3 avril 2019.
+Le texte suivant a été mis à jour pour la dernière fois le 14 novembre 2026.
 
 Kurage Studios n'est pas une société mais la personne Aurélien Drouet.
 
@@ -80,6 +80,8 @@ Kurage Studios propose pour les jeu suivants:
 
 6.2- Vos informations personnelles ne sont ni partagées ni vendues à des tiers.
 
+6.3- Site web : notre site (https://kuragestudios.github.io), y compris les versions navigateur de nos Jeux, utilise Cloudflare Web Analytics pour mesurer sa fréquentation. Ce service ne dépose aucun cookie, ne collecte aucune donnée personnelle et ne suit pas les visiteurs d'un site à l'autre ; il fournit uniquement des statistiques agrégées (nombre de visites, pages consultées, pays, type de navigateur). Aucun autre outil de suivi ou de publicité n'est utilisé sur le site. Les boutons de partage vers Facebook et X sont de simples liens : aucune donnée n'est transmise à ces services tant que vous ne cliquez pas dessus.
+
 ## 7. Exclusions et limitations de responsabilité
 
 7.1- Nous rejetons toute responsabilité au titre des éléments suivants:
@@ -107,7 +109,7 @@ Kurage Studios propose pour les jeu suivants:
 
 ## 11. Modification des présentes conditions
 
-11.1- Vous pouvez consulter les présentes conditions à tout moment à l'adresse http://www.kuragestudios.com/games/terms.
+11.1- Vous pouvez consulter les présentes conditions à tout moment à l'adresse https://kuragestudios.github.io/pages/terms.
 
 11.2- Nous nous réservons le droit de mettre à jour les présentes conditions à tout moment en publiant leur nouvelle version à l'adresse indiquée ci-dessus. Nous pouvons agir ainsi car nous modifions la nature de nos produits ou services, pour des raisons techniques ou juridiques, ou parce que nos besoins ont changé. Vous convenez que si vous n'acceptez pas certaines modifications de nos conditions, vous devez cesser immédiatement d'accéder et/ou de jouer à nos Jeux.
 

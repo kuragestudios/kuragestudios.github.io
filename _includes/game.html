@@ -74,14 +74,15 @@
 
                     <!-- Overview Section -->
                     <h4>SHARE IT</h4>
+                    {% capture share_url %}{{ site.url }}/games/{{ include.game.name }}{% endcapture %}
                     <ul class="list-unstyled">
                     {% for social in include.game.socials %}
                         <li>
                         {% case social %}
                         {% when 'facebook' %}
-                        <div class="fb-like" data-href="{{site.url}}/games/{{include.game.name}}" data-layout="button" data-action="like" data-size="large" data-show-faces="false" data-share="false"></div>
+                        <a href="https://www.facebook.com/sharer/sharer.php?u={{ share_url | url_encode }}" target="_blank" rel="noopener"><i class="fa fa-facebook-square"></i> Share on Facebook</a>
                         {% when 'twitter' %}
-                        <a href="https://twitter.com/share" class="twitter-share-button" data-url="{{site.url}}/games/{{include.game.name}}" data-hashtags="{{include.game.tags | join :', '}}" data-size="large" data-show-count="false">Tweet</a>
+                        <a href="https://twitter.com/intent/tweet?url={{ share_url | url_encode }}&amp;hashtags={{ include.game.tags | join: ',' | remove: ' ' | url_encode }}" target="_blank" rel="noopener"><i class="fa fa-twitter"></i> Share on X</a>
                         {% else %}
                         {% endcase %}
                         </li>
